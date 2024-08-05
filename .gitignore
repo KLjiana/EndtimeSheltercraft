@@ -3,13 +3,13 @@
 /local
 /logs
 /resourcepacks
-/saves
 /screenshots
 /server-resource-packs
 /shaderpacks
 /texturepacks
 /XaeroWorldMap
 /icon.png
+/saves
 /options.txt
 /rhino.local.properties
 /kubejs/probe
