@@ -33,3 +33,4 @@ config/embeddium-fingerprint.json
 config/embeddium-options.json
 config/embeddium++.toml
 config/oculus.properties
+/simplebackups
