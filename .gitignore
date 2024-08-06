@@ -34,3 +34,4 @@ config/embeddium-options.json
 config/embeddium++.toml
 config/oculus.properties
 /simplebackups
+/config/tacz
