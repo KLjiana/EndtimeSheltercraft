@@ -1,0 +1,105 @@
+
+["Turret stats"]
+
+	["Turret stats"."Fire charge turret"]
+		Ammo = "k_turrets:explosive_powder"
+		#In ticks
+		#Range: 1 ~ 60
+		"Fire rate" = 20
+		#Range: 10.0 ~ 1.7976931348623157E308
+		Health = 60.0
+		#Range: 0.0 ~ 100.0
+		Armor = 3.0
+		#Range: 8.0 ~ 100.0
+		Range = 32.0
+		#Range: 1 ~ 100
+		Damage = 6
+
+	["Turret stats"."Brick turret"]
+		#Range: 1 ~ 100
+		"Brick damage" = 9
+		Ammo = "minecraft:brick"
+		#In ticks
+		#Range: 1 ~ 60
+		"Fire rate" = 20
+		#Range: 10.0 ~ 1.7976931348623157E308
+		Health = 60.0
+		#Range: 0.0 ~ 100.0
+		Armor = 3.0
+		#If true, will use nether brick damage
+		"Use custom ammo" = false
+		#Range: 8.0 ~ 100.0
+		Range = 32.0
+		#Range: 1 ~ 100
+		"Nether brick damage" = 10
+
+	["Turret stats"."Gauss turret"]
+		Ammo = "k_turrets:gauss_bullet"
+		#In ticks
+		#Range: 1 ~ 60
+		"Fire rate" = 20
+		#Range: 10.0 ~ 1.7976931348623157E308
+		Health = 60.0
+		#Range: 0.0 ~ 100.0
+		Armor = 3.0
+		#Range: 8.0 ~ 100.0
+		Range = 32.0
+		#Range: 1 ~ 100
+		Damage = 12
+
+	["Turret stats"."Arrow turret"]
+		Ammo = "minecraft:arrow"
+		#In ticks
+		#Range: 1 ~ 60
+		"Fire rate" = 20
+		#Range: 10.0 ~ 1.7976931348623157E308
+		Health = 60.0
+		#Range: 0.0 ~ 100.0
+		Armor = 3.0
+		#Range: 1 ~ 100
+		"Base damage" = 6
+		"Use custom ammo" = false
+		#Range: 8.0 ~ 100.0
+		Range = 32.0
+
+	["Turret stats"."Bullet turret"]
+		Ammo = "minecraft:iron_nugget"
+		#In ticks
+		#Range: 1 ~ 60
+		"Fire rate" = 20
+		#Range: 10.0 ~ 1.7976931348623157E308
+		Health = 60.0
+		#Range: 0.0 ~ 100.0
+		Armor = 3.0
+		#Range: 1 ~ 100
+		"Iron bullet damage" = 8
+		#If true, uses iron bullet damage
+		"Use custom ammo" = false
+		#Range: 8.0 ~ 100.0
+		Range = 32.0
+		#Range: 1 ~ 100
+		"Gold bullet damage" = 7
+
+	["Turret stats"."Cobble turret"]
+		Ammo = "minecraft:cobblestone"
+		#In ticks
+		#Range: 1 ~ 60
+		"Fire rate" = 20
+		#Range: 10.0 ~ 1.7976931348623157E308
+		Health = 60.0
+		#Range: 0.0 ~ 100.0
+		Armor = 3.0
+		"Use custom ammo" = false
+		#Range: 0.0 ~ 100.0
+		Range = 32.0
+		#Range: 1 ~ 100
+		Damage = 3
+
+[Common]
+	"Set ownership automatically" = true
+	#Gauss bullet speed is 3x of this
+	#Range: 0.1 ~ 50.0
+	"Turret and drone projectile speed" = 50.0
+	#List of mob ids to be excluded from default targets
+	"Target list exceptions" = ["minecraft:zombified_piglin"]
+
