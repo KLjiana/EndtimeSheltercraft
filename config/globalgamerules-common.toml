@@ -61,36 +61,14 @@
 		tnt_explosion_drop_decay = false
 
 	[gamerules.misc]
-		#Non Vanilla gamerule: 'canPickupClaimedItems'
-		can_pickup_claimed_items = false
-		#Non Vanilla gamerule: 'claimedMobGriefing'
-		claimed_mob_griefing = false
 		#Controls the maximum number of blocks changed when using /clone, /fill, or /fillbiome.
 		#Range: > 0
 		command_modification_block_limit = 32768
 		#Non Vanilla gamerule: 'costOfKills'
 		#Range: > 0
 		cost_of_kills = 1
-		#Non Vanilla gamerule: 'doClaimedBlockBreaking'
-		do_claimed_block_breaking = false
-		#Non Vanilla gamerule: 'doClaimedBlockExplosions'
-		do_claimed_block_explosions = false
-		#Non Vanilla gamerule: 'doClaimedBlockInteractions'
-		do_claimed_block_interactions = false
-		#Non Vanilla gamerule: 'doClaimedBlockPlacing'
-		do_claimed_block_placing = false
-		#Non Vanilla gamerule: 'doClaimedDamageEntities'
-		do_claimed_damage_entities = false
-		#Non Vanilla gamerule: 'doClaimedEntityInteractions'
-		do_claimed_entity_interactions = false
 		#Whether certain sound events are heard by all players regardless of location.
 		global_sound_events = true
-		#Non Vanilla gamerule: 'maxChunkLoaded'
-		#Range: > 0
-		max_chunk_loaded = 64
-		#Non Vanilla gamerule: 'maxClaimedChunks'
-		#Range: > 0
-		max_claimed_chunks = 1089
 		#The maximum length of a chain of commands that can be executed during one tick. Applies to command blocks and functions.
 		#Range: > 0
 		max_command_chain_length = 65536
