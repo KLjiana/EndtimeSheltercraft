@@ -1,0 +1,33 @@
+
+[airdrop_spawn_setting]
+	#Range: 10 ~ 10000
+	AIRDROP_SPREAD_RANGE = 1500
+	#Airdrop spawn interval in tick.
+	#Range: 100 ~ 720000
+	AIRDROP_SPAWN_INTERVAL = 72000
+	#Airdrop despawn time in tick.
+	#Range: 100 ~ 8760000
+	AIRDROP_DESPAWN_TIME = 24000
+
+[airdrop_type_weight]
+	#Range: 0 ~ 10000
+	MEDIC_AIRDROP_WEIGHT = 5
+	#Range: 0 ~ 10000
+	AMMO_AIRDROP_WEIGHT = 3
+	#Range: 0 ~ 10000
+	NO_AIRDROP_WEIGHT = 2
+
+[airdrop_level_weight]
+	#Range: 0 ~ 10000
+	BASIC_BASE_WEIGHT = 100
+	#Range: 0 ~ 10000
+	BASIC_MULTIPLE_WEIGHT = 0
+	#Range: -10000 ~ 10000
+	MEDIUM_BASE_WEIGHT = -10
+	#Range: -10000 ~ 10000
+	MEDIUM_MULTIPLE_WEIGHT = 1
+	#Range: -10000 ~ 10000
+	ADVANCED_BASE_WEIGHT = -60
+	#Range: -10000 ~ 10000
+	ADVANCED_MULTIPLE_WEIGHT = 3
+
