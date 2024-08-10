@@ -1,0 +1,21 @@
+{
+    "materials": [
+      {
+        "item": {
+          "item": "create:railway_casing"
+        },
+        "count": 12
+      },
+      {
+        "item": {
+          "item": "eeeabsmobs:guling_eye"
+        },
+        "count": 1
+      }
+    ],
+    "result": {
+      "type": "ammo",
+      "id": "lradd:fusion_cell",
+      "count": 48
+    }
+  }

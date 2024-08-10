@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:nuggets/copper"
+      },
+      "count": 81
+    },
+    {
+      "item": {
+        "tag": "forge:gems/lapis",
+        "count": 2
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 12
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "tacz:308",
+    "count": 64
+  }
+}
