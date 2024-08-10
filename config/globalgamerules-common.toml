@@ -19,7 +19,7 @@
 		mob_griefing = true
 		#Non Vanilla gamerule: 'turretAttackSpeed'
 		#Range: > 0
-		turret_attack_speed = 100160
+		turret_attack_speed = 105160
 		#Non Vanilla gamerule: 'turretDamage'
 		#Range: > 0
 		turret_damage = 100200
