@@ -44,3 +44,9 @@ EndtimeSheltercraft-natives/lwjgl_opengl.dll
 EndtimeSheltercraft-natives/lwjgl.dll
 EndtimeSheltercraft-natives/lwjgl_stb.dll
 EndtimeSheltercraft-natives/OpenAL.dll
+config/incontrol
+config/jei
+config/mm-common.toml
+config/mutantmonsters-server.toml
+config/puresuffering
+config/refurbished_furniture.server.toml
