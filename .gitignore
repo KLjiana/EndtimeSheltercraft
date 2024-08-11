@@ -35,3 +35,4 @@ config/embeddium++.toml
 config/oculus.properties
 /simplebackups
 schematics
+/aes
