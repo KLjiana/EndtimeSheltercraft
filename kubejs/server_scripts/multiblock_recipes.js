@@ -25,7 +25,7 @@ MMEvents.createProcesses(event => {
             "type": "mm:input/consume",
             "ingredient": {
                 "type": "mm:item",
-                "item": "minecraft:iron_ingot",
+                "item": "createbigcannons:cast_iron_ingot",
                 "count": 1
             }
         })
