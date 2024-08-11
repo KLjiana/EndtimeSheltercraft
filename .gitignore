@@ -35,3 +35,12 @@ config/embeddium++.toml
 config/oculus.properties
 /simplebackups
 schematics
+EndtimeSheltercraft.jar
+config/respawnobelisks.jsonc
+EndtimeSheltercraft-natives/glfw.dll
+EndtimeSheltercraft-natives/jemalloc.dll
+EndtimeSheltercraft-natives/jna11272116374750392158.dll
+EndtimeSheltercraft-natives/lwjgl_opengl.dll
+EndtimeSheltercraft-natives/lwjgl.dll
+EndtimeSheltercraft-natives/lwjgl_stb.dll
+EndtimeSheltercraft-natives/OpenAL.dll
