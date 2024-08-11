@@ -4,18 +4,18 @@
         "item": {
           "item": "create:railway_casing"
         },
-        "count": 12
+        "count": 2
       },
       {
         "item": {
-          "item": "eeeabsmobs:guling_eye"
+          "item": "minecraft:redstone_block"
         },
-        "count": 1
+        "count": 2
       }
     ],
     "result": {
       "type": "ammo",
       "id": "lradd:fusion_cell",
-      "count": 48
+      "count": 40
     }
   }
