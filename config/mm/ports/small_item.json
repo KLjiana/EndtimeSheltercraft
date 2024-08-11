@@ -1,10 +1,10 @@
 {
-    "id": "mini_item",
+    "id": "small_item",
     "controllerIds": "mm:controller",
-    "name": "Mini Item",
+    "name": "Small Item",
     "type": "mm:item",
     "config": {
-      "rows": 1,
-      "columns": 1
+      "rows": 2,
+      "columns": 2
     }
   }

@@ -2,6 +2,8 @@
   "values": [
     "mm:cokery_controller",
     "mm:mini_item_input",
-    "mm:mini_item_output"
+    "mm:mini_item_output",
+    "mm:small_item_input",
+    "mm:small_item_output"
   ]
 }

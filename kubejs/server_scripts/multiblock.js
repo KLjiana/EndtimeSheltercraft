@@ -24,9 +24,9 @@ MMEvents.createStructures(event => {
             }).key("B", {
                 block: "create:small_scoria_bricks"
             }).key("I", {
-                block: "mm:mini_item_input"
+                tag: "kubejs:mm_i_input"
             }).key("O", {
-                block: "mm:mini_item_output"
+                tag: "kubejs:mm_i_output"
             })
         })
 })

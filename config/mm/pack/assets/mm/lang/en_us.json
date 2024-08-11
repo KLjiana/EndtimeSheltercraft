@@ -2,5 +2,7 @@
   "block.mm.cokery_controller": "Cokery Controller",
   "block.mm.mini_item_input": "Mini Item Input",
   "block.mm.mini_item_output": "Mini Item Output",
+  "block.mm.small_item_input": "Small Item Input",
+  "block.mm.small_item_output": "Small Item Output",
   "item.mm.blueprint": "Blueprint"
 }

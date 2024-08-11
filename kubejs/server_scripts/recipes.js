@@ -167,4 +167,42 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    event.shaped('mm:mini_item_input', [
+        ' L ',
+        'LHL',
+        ' L '
+    ], {
+        L: '#minecraft:logs',
+        H: 'minecraft:hopper'
+    })
+
+    event.shaped('mm:mini_item_output', [
+        ' L ',
+        'LDL',
+        ' L '
+    ], {
+        L: '#minecraft:logs',
+        D: 'minecraft:dropper'
+    })
+
+    event.recipes.create.mechanical_crafting('mm:small_item_input', [
+        " LL ",
+        "LMML",
+        "LMML",
+        " LL "
+    ], {
+        L: '#minecraft:logs',
+        M: 'mm:mini_item_input'
+    })
+
+    event.recipes.create.mechanical_crafting('mm:small_item_output', [
+        " LL ",
+        "LMML",
+        "LMML",
+        " LL "
+    ], {
+        L: '#minecraft:logs',
+        M: 'mm:mini_item_output'
+    })
 }) 
