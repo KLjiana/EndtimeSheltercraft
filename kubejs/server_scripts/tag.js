@@ -6,4 +6,10 @@ ServerEvents.tags('block', event => {
     mm_i_id.forEach(id =>  {
         event.add('kubejs:mm_i_output', 'mm:' + id + '_item_output')
     })
+
+    event.add('forge:storage_blocks/steel', 'kubejs:steel_block')
+})
+
+ServerEvents.tags('item', event => {
+    event.add('forge:ingots/steel', 'kubejs:steel_ingot')
 })

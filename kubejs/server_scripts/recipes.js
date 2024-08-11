@@ -186,6 +186,18 @@ ServerEvents.recipes(event => {
         D: 'minecraft:dropper'
     })
 
+    event.shaped('kubejs:steel_block', [
+        'SSS',
+        'SSS',
+        'SSS'
+    ], {
+        S: 'kubejs:steel_ingot'
+    })
+
+    event.shapeless('9x kubejs:steel_ingot', [
+        'kubejs:steel_block'
+    ])
+
     event.recipes.create.mechanical_crafting('mm:small_item_input', [
         " LL ",
         "LMML",

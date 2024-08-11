@@ -29,4 +29,35 @@ MMEvents.createStructures(event => {
                 tag: "kubejs:mm_i_output"
             })
         })
+
+        event.create("mm:blast_furnace")
+        .controllerId("mm:blast_furnace_controller")
+        .name("Blast Furnace")
+        .layout(a => {
+            a.layer([
+                "NNN",
+                "NNN",
+                "NNN"
+            ]).layer([
+                "NDN",
+                "D D",
+                "NDN"
+            ]).layer([
+                "DCD",
+                "O I",
+                "DDD",
+            ]).layer([
+                "NNN",
+                "NNN",
+                "NNN"
+            ]).key("N", {
+                block: "minecraft:nether_bricks"
+            }).key("D", {
+                block: "biomeswevegone:dacite_bricks"
+            }).key("I", {
+                tag: "kubejs:mm_i_input"
+            }).key("O", {
+                tag: "kubejs:mm_i_output"
+            })
+        })
 })
