@@ -8,3 +8,7 @@ StartupEvents.registry("block", (event) => {
     .tagBlock("mineable/pickaxe")
     .tagBlock('minecraft:needs_stone_tool')
 })
+StartupEvents.registry("item", (event) => {
+    event.create("coke_coal")
+    .displayName("焦煤")
+})
