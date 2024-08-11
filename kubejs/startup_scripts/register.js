@@ -11,4 +11,6 @@ StartupEvents.registry("block", (event) => {
 StartupEvents.registry("item", (event) => {
     event.create("coke_coal")
     .displayName("焦煤")
+    event.create("steel_ingot")
+    .displayName("钢锭")
 })

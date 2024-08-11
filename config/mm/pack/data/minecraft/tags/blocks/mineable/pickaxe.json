@@ -1,5 +1,6 @@
 {
   "values": [
+    "mm:blast_furnace_controller",
     "mm:cokery_controller",
     "mm:mini_item_input",
     "mm:mini_item_output",
