@@ -20,20 +20,20 @@ backupsToKeep = 10
 timer = 120
 #The compression level, 0 is no compression (less cpu usage) and takes a lot of space, 9 is best compression (most cpu usage) and takes less space. -1 is default
 #Range: -1 ~ 9
-compressionLevel = -1
+compressionLevel = 3
 #Should message be sent when backup is in the making?
 sendMessages = true
 #The max size of storage the backup folder. If it takes more storage, old files will be deleted.
 #Needs to be written as <number><space><storage type>
 #Valid storage types: B, KB, MB, GB, TB
-maxDiskSize = "25 GB"
+maxDiskSize = "100 GB"
 #Used to define the output path.
 outputPath = "simplebackups"
 #Create backups, even if nobody is online
-noPlayerBackups = false
+noPlayerBackups = true
 #Should sub-directories be generated for each world?
 #Keep in mind that all configs above, including backupsToKeep and maxDiskSize, will be calculated for each sub directory.
-createSubDirs = false
+createSubDirs = true
 
 [mod_compat]
 	#Should backup notifications be sent to Discord by using mc2discord? (needs to be installed)

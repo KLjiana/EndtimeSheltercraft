@@ -1,8 +1,0 @@
-#Config
-#Enable MobBattleTracker Highlight
-enableMobBattleTrackerHighlight = true
-#Enable MobBattleTracker RestrictedRange
-enableMobBattleTrackerRestrictedRange = true
-#Enable SpawnPoint Structure
-enableSpawnPointStructure = true
-
