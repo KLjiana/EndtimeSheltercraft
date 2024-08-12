@@ -57,7 +57,7 @@
     "highwaySecondaryPerlinScale": 10.0,
     "spawnNotInBuilding": false,
     "bridgeSupports": true,
-    "worldStyle": "standard_everywhere",
+    "worldStyle": "standard",
     "buildingMaxFloors": 16,
     "avoidFoliage": false,
     "buildingMinCellars": 0,
