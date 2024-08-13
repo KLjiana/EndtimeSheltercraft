@@ -1,0 +1,7 @@
+
+#General settings
+[profiles]
+	specialBedBlock = ""
+	selectedProfile = "EndtimeSheltercraft"
+	#If this is true then saplings will grow into trees during generation. This is more expensive
+	forceSaplingGrowth = false
