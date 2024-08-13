@@ -91,7 +91,7 @@
 		#Whether the player should take damage when inside powder snow.
 		freeze_damage = true
 		#Whether the player should keep items and experience in their inventory after death .
-		keep_inventory = false
+		keep_inventory = true
 		#Whether the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
 		natural_regeneration = true
 		#What percentage of players must sleep to skip the night.
@@ -105,7 +105,7 @@
 
 	[gamerules.updates]
 		#Whether the daylight cycle and moon phases progress.
-		do_daylight_cycle = true
+		do_daylight_cycle = false
 		#Whether fire should spread and naturally extinguish
 		do_fire_tick = true
 		#Whether vines can spread to other blocks. Cave vines, weeping vines, and twisting vines are not affected.
