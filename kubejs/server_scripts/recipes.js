@@ -217,4 +217,27 @@ ServerEvents.recipes(event => {
         L: '#minecraft:logs',
         M: 'mm:mini_item_output'
     })
+
+    event.shaped('mm:cokery_controller', [
+        'APA',
+        'BSB',
+        'ARA'
+    ], {
+        A: 'create:andesite_alloy_block',
+        R: 'minecraft:comparator',
+        P: 'minecraft:piston',
+        B: 'minecraft:iron_bars',
+        S: 'create:small_scoria_bricks'
+    })
+
+    const inter = "mm:cokery_controller"
+    event.recipes.create.sequenced_assembly([
+        Item.of("mm:blast_furnace_controller").withChance(9),
+        Item.of("mm:cokery_controller").withChance(1)
+    ], inter, [
+        event.recipes.createFilling(inter, [inter, Fluid.lava(500)]),
+        event.recipes.createDeploying(inter, [inter, "minecraft:blaze_powder"]),
+        event.recipes.createDeploying(inter, [inter, "minecraft:magma_cream"]),
+        event.recipes.createDeploying(inter, [inter, "minecraft:nether_brick"])
+    ]).transitionalItem(inter).loops(4)
 }) 
