@@ -8,7 +8,7 @@
 	maxAngleRange = 80.0
 	# If enabled, allows players to access the backpack of another player by interacting with the visible backpack on their back.
 	# Valid values: true, false
-	enabledPickpocketing = true
+	enabledPickpocketing = false
 	# The maximum reach distance of a player to interact with another player's backpack.
 	# Valid range: 0 to 4 (inclusive)
 	maxReachDistance = 2.0
@@ -19,7 +19,7 @@
 	enableBackpack = true
 	# The chance a Wandering Trader will spawn with a backpack. The chance is interpreted as one out of x, with x being the number given from this config option.
 	# Valid range: 1 to 100 (inclusive)
-	spawnWithBackpackChance = 2
+	spawnWithBackpackChance = 90
 
 	[wanderingTrader.pickpocketingChallenge]
 		# The maximum distance a Wandering Trader can detect a player. The longer the distance, the more difficult the challenge to pickpocket their backpack.
@@ -27,13 +27,13 @@
 		maxDetectionDistance = 10.0
 		# The maximum multiplier to apply when generating loot in the Wandering Trader backpack
 		# Valid range: 1 to 64 (inclusive)
-		maxLootMultiplier = 12
+		maxLootMultiplier = 24
 		# If true, allows players who are disliked by Wandering Traders to continue to trade normally with them. A player is considered disliked if they are caught when trying to pickpocket a Wandering Trader's backpack.
 		# Valid values: true, false
 		dislikedPlayersCanTrade = false
 		# The amount of time (in ticks) a player has to wait before a Wandering Trader will like them again. If a player gets caught pickpocketing a Wandering Trader, the cooldown will be reset
 		# Valid range: 0 to 24000 (inclusive)
-		dislikeCooldown = 6000
+		dislikeCooldown = 3000
 		# Instead of generating trades as loot in the Wandering Traders backpacks, only generate emeralds.
 		# Valid values: true, false
 		generateEmeraldsOnly = false
@@ -42,15 +42,15 @@
 		timeToForgetPlayer = 200
 		# The maximum size of an emerald stack that can generate in the Wandering Trader backpack
 		# Valid range: 1 to 64 (inclusive)
-		maxEmeraldStack = 32
+		maxEmeraldStack = 24
 
 [backpack]
 	# The amount of slot rows in the backpack inventory.
 	# Valid range: 1 to 7 (inclusive)
-	inventorySizeRows = 6
+	inventorySizeRows = 7
 	# If enabled, the backpack will stay on the player on death. Similar to keep inventory rule.
 	# Valid values: true, false
-	keepOnDeath = false
+	keepOnDeath = true
 	# Allows every player to use any backpack cosmetic variant without needing to complete the challenges. Side note, any progress to a challenge will not be tracked while enabled.
 	# Valid values: true, false
 	unlockAllCosmetics = false
@@ -59,7 +59,7 @@
 	disableCustomisation = false
 	# The amount of slot columns in the backpack inventory.
 	# Valid range: 1 to 13 (inclusive)
-	inventorySizeColumns = 9
+	inventorySizeColumns = 12
 	# Stops players from removing the backpack if it's not empty. This prevents players from carrying multiple backpacks.
 	# Valid values: true, false
 	lockIntoSlot = true
