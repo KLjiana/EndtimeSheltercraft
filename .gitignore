@@ -51,3 +51,4 @@ config/mutantmonsters-server.toml
 config/puresuffering
 config/refurbished_furniture.server.toml
 config/mm/pack/.cache
+config/potion_level_fix-common.toml
