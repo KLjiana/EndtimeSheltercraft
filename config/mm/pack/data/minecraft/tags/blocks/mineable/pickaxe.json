@@ -1,5 +1,6 @@
 {
   "values": [
+    "mm:assembly_room_controller",
     "mm:blast_furnace_controller",
     "mm:cokery_controller",
     "mm:mini_item_input",

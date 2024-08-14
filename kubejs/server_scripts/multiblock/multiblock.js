@@ -14,7 +14,7 @@ MMEvents.createStructures(event => {
             ]).layer([
                 "BCB",
                 "O I",
-                "SSS",
+                "SSS"
             ]).layer([
                 "SSS",
                 "SSS",
@@ -30,7 +30,7 @@ MMEvents.createStructures(event => {
             })
         })
 
-        event.create("mm:blast_furnace")
+    event.create("mm:blast_furnace")
         .controllerId("mm:blast_furnace_controller")
         .name("Blast Furnace")
         .layout(a => {
@@ -45,7 +45,7 @@ MMEvents.createStructures(event => {
             ]).layer([
                 "DCD",
                 "O I",
-                "DDD",
+                "DDD"
             ]).layer([
                 "NNN",
                 "NNN",
@@ -58,6 +58,92 @@ MMEvents.createStructures(event => {
                 tag: "kubejs:mm_i_input"
             }).key("O", {
                 tag: "kubejs:mm_i_output"
+            })
+        })
+    event.create("mm:assembly_room")
+        .controllerId("mm:assembly_room_controller")
+        .name("Assembly Room")
+        .layout(a => {
+            a.layer([
+                "SAAAS",
+                "AFFFA",
+                "AFFFA",
+                "AFLFA",
+                "AFFFA",
+                "AFLFA",
+                "AFFFA",
+                "AFLFA",
+                "AFFFA",
+                "AFFFA",
+                "SAAAS"
+            ]).layer([
+                "DFFFD",
+                "F   F",
+                "F   F",
+                "F   F",
+                "F   F",
+                "F   F",
+                "F   F",
+                "F   F",
+                "F   F",
+                "F   F",
+                "DSSSD"
+            ]).layer([
+                "DFAFD",
+                "F   F",
+                "F   F",
+                "F   F",
+                "F   F",
+                "F   F",
+                "F   F",
+                "F   F",
+                "F   F",
+                "F   F",
+                "DNSND"
+            ]).layer([
+                "DOCID",
+                "N   N",
+                "N   N",
+                "N   N",
+                "N   N",
+                "N   N",
+                "N   N",
+                "N   N",
+                "N   N",
+                "N   N",
+                "DFNFD"
+            ]).layer([
+                "SAAAS",
+                "ARBRA",
+                "ARBRA",
+                "ARBRA",
+                "ARBRA",
+                "ARBRA",
+                "ARBRA",
+                "ARBRA",
+                "ARBRA",
+                "ARBRA",
+                "SAAAS"
+            ]).key("S", {
+                block: "create:copper_casing"
+            }).key("A", {
+                block: "create:andesite_casing"
+            }).key("R", {
+                block: "create:rose_quartz_block"
+            }).key("B", {
+                block: "create:belt"
+            }).key("D", {
+                block: "create:deepslate_pillar"
+            }).key("N", {
+                block: "create:industrial_iron_block"
+            }).key("F", {
+                block: "create:framed_glass"
+            }).key("I", {
+                tag: "kubejs:mm_i_input"
+            }).key("O", {
+                tag: "kubejs:mm_i_output"
+            }).key("L", {
+                block: "create:rose_quartz_lamp"
             })
         })
 })

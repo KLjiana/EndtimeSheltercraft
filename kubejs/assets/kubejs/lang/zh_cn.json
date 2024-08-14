@@ -1,4 +1,5 @@
 {
+  "block.mm.assembly_room_controller": "装配室控制器",
   "block.mm.cokery_controller": "焦炉控制器",
   "block.mm.blast_furnace_controller": "高炉控制器",
   "block.mm.mini_item_input": "迷你物品输入端口",
