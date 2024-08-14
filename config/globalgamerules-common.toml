@@ -3,13 +3,8 @@
 [gamerules]
 
 	[gamerules.mobs]
-		#Non Vanilla gamerule: 'accidentalInjury'
-		accidental_injury = true
 		#Whether raids are disabled.
 		disable_raids = false
-		#Non Vanilla gamerule: 'dropRewards'
-		#Range: > 0
-		drop_rewards = 20
 		#Makes angered neutral mobs stop being angry when the targeted player dies nearby.
 		forgive_dead_players = true
 		#The maximum number of pushable entities a mob or player can push, before taking 6 (♥♥♥) entity cramming damage per half-second. Setting to 0 or lower disables the rule. Damage affects Survival-mode or Adventure-mode players, and all mobs but bats. Pushable entities include non-Spectator-mode players, any mob except bats, as well as boats and minecarts.
@@ -17,20 +12,10 @@
 		max_entity_cramming = 24
 		#Whether creepers, zombies, endermen, ghasts, withers, ender dragons, rabbits, sheep, villagers, silverfish, snow golems, and end crystals should be able to change blocks, and whether mobs can pick up items. When mobGriefing is disabled, piglins do not pick up gold ingots, but a player can still barter with them by using the item on the mob. Similarly, villagers do not pick up food items but can still breed until they run out of any food already in their inventory. This also affects the capability of zombie-like creatures like zombified piglins and drowned to pathfind to turtle eggs.
 		mob_griefing = true
-		#Non Vanilla gamerule: 'turretAttackSpeed'
-		#Range: > 0
-		turret_attack_speed = 100160
-		#Non Vanilla gamerule: 'turretDamage'
-		#Range: > 0
-		turret_damage = 100200
-		#Non Vanilla gamerule: 'turretHeal'
-		#Range: > 0
-		turret_heal = 200000
-		#Non Vanilla gamerule: 'turretHealth'
-		#Range: > 0
-		turret_health = 1000
 		#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled.
 		universal_anger = false
+		#Non Vanilla gamerule: 'injuryByAccident'
+		injury_by_accident = false
 
 	[gamerules.chat]
 		#Whether advancements should be announced in chat.
@@ -64,9 +49,6 @@
 		#Controls the maximum number of blocks changed when using /clone, /fill, or /fillbiome.
 		#Range: > 0
 		command_modification_block_limit = 32768
-		#Non Vanilla gamerule: 'costOfKills'
-		#Range: > 0
-		cost_of_kills = 1
 		#Whether certain sound events are heard by all players regardless of location.
 		global_sound_events = true
 		#The maximum length of a chain of commands that can be executed during one tick. Applies to command blocks and functions.
@@ -91,7 +73,7 @@
 		#Whether the player should take damage when inside powder snow.
 		freeze_damage = true
 		#Whether the player should keep items and experience in their inventory after death .
-		keep_inventory = false
+		keep_inventory = true
 		#Whether the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
 		natural_regeneration = true
 		#What percentage of players must sleep to skip the night.
@@ -105,7 +87,7 @@
 
 	[gamerules.updates]
 		#Whether the daylight cycle and moon phases progress.
-		do_daylight_cycle = true
+		do_daylight_cycle = false
 		#Whether fire should spread and naturally extinguish
 		do_fire_tick = true
 		#Whether vines can spread to other blocks. Cave vines, weeping vines, and twisting vines are not affected.

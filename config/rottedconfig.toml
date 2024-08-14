@@ -2,7 +2,7 @@
 [Spawns]
 	#Default false
 	"Should mobs spawn after a few days?" = false
-	"mob|weight|minimum|maximum" = ["rotted:marine|25|1|2", "rotted:doctor|40|1|3", "rotted:farmer|60|2|5", "rotted:miner|50|1|3", "rotted:adventurer|55|2|4", "rotted:flusk|20|1|1", "rotted:shielder|25|1|2"]
+	"mob|weight|minimum|maximum" = []
 	#Default minecraft:is_overworld
 	"Dictates in what biome the zombies spawn" = ["minecraft:is_overworld"]
 	#Default 60
@@ -15,23 +15,23 @@
 	#Range: 0.1 ~ 1.0
 	"The chance of the mob applying this effect when hitting you" = 0.8
 	#Default true
-	"Should this effect be applied when zombies hit you or other entities?" = true
+	"Should this effect be applied when zombies hit you or other entities?" = false
 
 ["Additional AI Changes for the vanilla zombies"]
 	#Default true
-	"Should the vanilla zombies have decreased range( rotted-zombie-like ) ?" = true
+	"Should the vanilla zombies have decreased range( rotted-zombie-like ) ?" = false
 	#Default true
-	"Should the vanilla zombies perform small leaps at the player?" = true
+	"Should the vanilla zombies perform small leaps at the player?" = false
 
 [Zombifications]
 	#Default true
 	"Should the villager convert after dying with the contagion effect?" = true
 	#Default true
-	"Should the player convert after dying with the contagion effect?" = true
+	"Should the player convert after dying with the contagion effect?" = false
 
 ["AI Options + Block Breaking Options"]
 	#Default true
-	"Should the rotted zombies break blocks?" = true
+	"Should the rotted zombies break blocks?" = false
 	#Default 0.15
 	#Range: 0.05 ~ 0.5
 	"Area of the blocks that the mob can break, the bigger the number, the more the blocks a mob can destroy in one go" = 0.15
@@ -121,5 +121,5 @@
 	#Range: 0.1 ~ 1.0
 	"The chance of the mob applying this effect when hitting you" = 0.2
 	#Default true
-	"Should this effect be applied when zombies hit you or other entities?" = true
+	"Should this effect be applied when zombies hit you or other entities?" = false
 

@@ -1,7 +1,7 @@
 #Enable Enemies Swarming You
 enablesiege = true
 #Enable Increased Enemy Presence
-incenemies = true
+incenemies = false
 #Should special mobs spawn riding other mobs?
 isjockies = true
 #Charged Creepers Spawn Naturally
