@@ -1,13 +1,14 @@
 ServerEvents.recipes(event => {
     event.remove({ output: 'tacz:gun_smith_table' })
     event.remove({ output: 'tacz:ammo_box' })
+    event.remove({ output: 'create:mechanical_crafter' })
 
     event.custom({
         type: 'create:mechanical_crafting',
         "acceptMirrored": false,
         "key": {
-            "B": {
-                "item": "create:brass_casing"
+            "C": {
+                "item": "create:andesite_casing"
             },
             "W": {
                 "item": "refurbished_furniture:wrench"
@@ -33,7 +34,7 @@ ServerEvents.recipes(event => {
         },
         "pattern": [
             "PP HAW",
-            "BBBISS",
+            "CCCISS",
             "LL  LL",
             "L    L"
         ],
@@ -72,69 +73,31 @@ ServerEvents.recipes(event => {
             }
         }
     })
-    event.custom({
-        type: 'create:mechanical_crafting',
-        "acceptMirrored": false,
-        "key": {
-            "M": {
-                "item": "kubejs:military_casing"
-            },
-            "G": {
-                "item": "minecraft:gold_block"
-            },
-            "P": {
-                "tag": "minecraft:planks"
-            },
-            "A": {
-                "item": "tacz:ammo_box"
-            }
-        },
-        "pattern": [
-            "MMMMM",
-            "GPAPG",
-            "GP PG",
-            "MPPPM",
-            "MMMMM"
-        ],
-        "result": {
-            "count": 1,
-            "item": "tacz:ammo_box",
-            "nbt": {
-                "Level": 1
-            }
-        }
+
+    event.recipes.create.mechanical_crafting(Item.of('tacz:ammo_box', "{Level:1}"), [
+        "MMMMM",
+        "GPAPG",
+        "GP PG",
+        "MPPPM",
+        "MMMMM"
+    ], {
+        M: 'kubejs:military_casing',
+        G: 'minecraft:gold_block',
+        P: '#minecraft:planks',
+        A: Item.of('tacz:ammo_box', "{Level:0}")
     })
-    event.custom({
-        type: 'create:mechanical_crafting',
-        "acceptMirrored": false,
-        "key": {
-            "M": {
-                "item": "kubejs:military_casing"
-            },
-            "D": {
-                "item": "minecraft:diamond"
-            },
-            "P": {
-                "tag": "minecraft:planks"
-            },
-            "A": {
-                "item": "tacz:ammo_box"
-            }
-        },
-        "pattern": [
-            "MMMMM",
-            "DPAPD",
-            "DP PD",
-            "MPPPM",
-            "MMMMM"
-        ],
-        "result": {
-            "count": 1,
-            "item": "tacz:ammo_box",
-            "nbt": {
-                "Level": 2
-            }
-        }
+
+    event.recipes.create.mechanical_crafting(Item.of('tacz:ammo_box', '{Level:2}'), [
+        "MMMMM",
+        "GPAPG",
+        "GP PG",
+        "MPPPM",
+        "MMMMM"
+    ], {
+        M: 'kubejs:military_casing',
+        G: 'minecraft:diamond',
+        P: '#minecraft:planks',
+        A: Item.of('tacz:ammo_box', '{Level:1}')
     })
     event.custom({
         "type": "create:compacting",
@@ -228,6 +191,16 @@ ServerEvents.recipes(event => {
         P: 'minecraft:piston',
         B: 'minecraft:iron_bars',
         S: 'create:small_scoria_bricks'
+    })
+
+    event.shaped('3x create:mechanical_crafter', [
+        'C  ',
+        'S  ',
+        'T  '
+    ], {
+        C: 'create:cogwheel',
+        S: 'create:copper_casing',
+        T: 'minecraft:crafting_table'
     })
 
     const inter = "mm:cokery_controller"

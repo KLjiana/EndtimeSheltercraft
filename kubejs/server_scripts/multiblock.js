@@ -53,7 +53,7 @@ MMEvents.createStructures(event => {
             ]).key("N", {
                 block: "minecraft:nether_bricks"
             }).key("D", {
-                block: "biomeswevegone:dacite_bricks"
+                block: "create:cut_crimsite_bricks"
             }).key("I", {
                 tag: "kubejs:mm_i_input"
             }).key("O", {
