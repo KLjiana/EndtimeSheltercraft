@@ -74,7 +74,7 @@ ServerEvents.recipes(event => {
         }
     })
 
-    event.recipes.create.mechanical_crafting(Item.of('tacz:ammo_box', "{Level:1}"), [
+    event.recipes.create.mechanical_crafting(Item.of('tacz:ammo_box', "{Level:1}").weakNBT(), [
         "MMMMM",
         "GPAPG",
         "GP PG",
@@ -84,10 +84,10 @@ ServerEvents.recipes(event => {
         M: 'kubejs:military_casing',
         G: 'minecraft:gold_block',
         P: '#minecraft:planks',
-        A: Item.of('tacz:ammo_box', "{Level:0}")
+        A: Item.of('tacz:ammo_box', "{Level:0}").weakNBT()
     })
 
-    event.recipes.create.mechanical_crafting(Item.of('tacz:ammo_box', '{Level:2}'), [
+    event.recipes.create.mechanical_crafting(Item.of('tacz:ammo_box', '{Level:2}').weakNBT(), [
         "MMMMM",
         "GPAPG",
         "GP PG",
@@ -97,7 +97,7 @@ ServerEvents.recipes(event => {
         M: 'kubejs:military_casing',
         G: 'minecraft:diamond',
         P: '#minecraft:planks',
-        A: Item.of('tacz:ammo_box', '{Level:1}')
+        A: Item.of('tacz:ammo_box', '{Level:1}').weakNBT()
     })
     event.custom({
         "type": "create:compacting",
