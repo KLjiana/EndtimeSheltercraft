@@ -2,7 +2,7 @@
     "materials": [
       {
         "item": {
-          "item": "create:railway_casing"
+          "item": "kubejs:steel_block"
         },
         "count": 2
       },

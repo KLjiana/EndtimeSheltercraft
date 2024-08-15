@@ -2,7 +2,7 @@
   "materials": [
     {
       "item": {
-        "item": "kubejs:military_casing"
+        "item": "kubejs:steel_ingot"
       },
       "count": 6
     },
@@ -10,7 +10,7 @@
       "item": {
         "tag": "forge:gunpowder"
       },
-      "count": 64
+      "count": 24
     }
   ],
   "result": {

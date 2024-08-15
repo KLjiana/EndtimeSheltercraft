@@ -44,35 +44,35 @@ ServerEvents.recipes(event => {
         }
     })
 
-    event.custom({
-        type: 'create:mechanical_crafting',
-        "acceptMirrored": false,
-        "key": {
-            "M": {
-                "item": "kubejs:military_casing"
-            },
-            "I": {
-                "item": "minecraft:iron_block"
-            },
-            "P": {
-                "tag": "minecraft:planks"
-            }
-        },
-        "pattern": [
-            "MMMMM",
-            "IPPPI",
-            "IP PI",
-            "MPPPM",
-            "MMMMM"
-        ],
-        "result": {
-            "count": 1,
-            "item": "tacz:ammo_box",
-            "nbt": {
-                "Level": 0
-            }
-        }
-    })
+    // event.custom({
+    //     type: 'create:mechanical_crafting',
+    //     "acceptMirrored": false,
+    //     "key": {
+    //         "M": {
+    //             "item": "kubejs:military_casing"
+    //         },
+    //         "I": {
+    //             "item": "minecraft:iron_block"
+    //         },
+    //         "P": {
+    //             "tag": "minecraft:planks"
+    //         }
+    //     },
+    //     "pattern": [
+    //         "MMMMM",
+    //         "IPPPI",
+    //         "IP PI",
+    //         "MPPPM",
+    //         "MMMMM"
+    //     ],
+    //     "result": {
+    //         "count": 1,
+    //         "item": "tacz:ammo_box",
+    //         "nbt": {
+    //             "Level": 0
+    //         }
+    //     }
+    // })
 
     event.recipes.create.mechanical_crafting(Item.of('tacz:ammo_box', "{Level:1}").weakNBT(), [
         "MMMMM",
