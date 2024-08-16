@@ -24,7 +24,7 @@
 	#Whether or not to display the gun's HUD
 	GunHUDEnable = true
 	#Whether or not to display the kill amount
-	KillAmountEnable = true
+	KillAmountEnable = false
 	#The duration of the kill amount, in second
 	#Range: 0.0 ~ 1.7976931348623157E308
 	KillAmountDurationSecond = 3.0
@@ -34,7 +34,7 @@
 	#Whether or not to render first person bullet trail
 	FirstPersonBulletTracerEnable = true
 	#Disable the interact hud text in center of the screen
-	DisableInteractHudText = false
+	DisableInteractHudText = true
 	#Max time the damage counter will reset
 	#Range: > 10
 	DamageCounterResetTime = 2000

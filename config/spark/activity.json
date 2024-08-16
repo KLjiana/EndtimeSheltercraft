@@ -5,6 +5,19 @@
       "name": "KL_jiana",
       "uniqueId": "f4c39e0c-a391-4416-ae0d-329388b0aec1"
     },
+    "time": 1723811800920,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/EnBRjEklW4"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KL_jiana",
+      "uniqueId": "f4c39e0c-a391-4416-ae0d-329388b0aec1"
+    },
     "time": 1723562771186,
     "type": "Profiler",
     "data": {
