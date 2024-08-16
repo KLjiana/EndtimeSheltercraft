@@ -80,41 +80,41 @@ MMEvents.createProcesses(event => {
                 "count": 1
             }
         })
-    event.create("mm:core_upgrade_table_recipe")
-        .structureId("mm:assembly_room")
-        .ticks(6000)
-        .input({
-            "type": "mm:input/consume",
-            "ingredient": {
-                "type": "mm:item",
-                "item": "create:industrial_iron_block",
-                "count": 12
-            }
-        })
-        .input({
-            "type": "mm:input/consume",
-            "ingredient": {
-                "type": "mm:item",
-                "tag": "minecraft:stone_bricks",
-                "count": 24
-            }
-        })
-        .input({
-            "type": "mm:input/consume",
-            "ingredient": {
-                "type": "mm:item",
-                "item": "silence_s_defense_tower:hammer",
-                "count": 1
-            }
-        })
-        .output({
-            "type": "mm:output/simple",
-            "ingredient": {
-                "type": "mm:item",
-                "item": "silence_s_defense_tower:core_upgrade_table",
-                "count": 1
-            }
-        })
+    // event.create("mm:core_upgrade_table_recipe")
+    //     .structureId("mm:assembly_room")
+    //     .ticks(6000)
+    //     .input({
+    //         "type": "mm:input/consume",
+    //         "ingredient": {
+    //             "type": "mm:item",
+    //             "item": "create:industrial_iron_block",
+    //             "count": 12
+    //         }
+    //     })
+    //     .input({
+    //         "type": "mm:input/consume",
+    //         "ingredient": {
+    //             "type": "mm:item",
+    //             "tag": "minecraft:stone_bricks",
+    //             "count": 24
+    //         }
+    //     })
+    //     .input({
+    //         "type": "mm:input/consume",
+    //         "ingredient": {
+    //             "type": "mm:item",
+    //             "item": "silence_s_defense_tower:hammer",
+    //             "count": 1
+    //         }
+    //     })
+    //     .output({
+    //         "type": "mm:output/simple",
+    //         "ingredient": {
+    //             "type": "mm:item",
+    //             "item": "silence_s_defense_tower:core_upgrade_table",
+    //             "count": 1
+    //         }
+    //     })
     event.create("mm:maintenance_station0_recipe")
         .structureId("mm:assembly_room")
         .ticks(6000)
