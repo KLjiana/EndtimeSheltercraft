@@ -2,6 +2,15 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'tacz:gun_smith_table' })
     event.remove({ output: 'tacz:ammo_box' })
     event.remove({ output: 'create:mechanical_crafter' })
+    event.remove({ output: 'create:industrial_iron_block' })
+    event.remove({ output: 'silence_s_defense_tower:core_upgrade_table' })
+    event.remove({ output: 'silence_s_defense_tower:maintenance_station0' })
+    event.remove({ id: 'silence_s_defense_tower:hx_1' })
+    event.remove({ id: 'silence_s_defense_tower:hxdu_1' })
+    event.remove({ id: 'silence_s_defense_tower:hxdie_1' })
+
+
+    event.stonecutting("create:industrial_iron_block","kubejs:steel_ingot")
 
     event.custom({
         type: 'create:mechanical_crafting',
