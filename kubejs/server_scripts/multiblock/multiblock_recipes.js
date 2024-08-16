@@ -283,5 +283,61 @@ MMEvents.createProcesses(event => {
                     "count": 1
                 }
             })
+        event.create("mm:hxdie_" + i)
+            .structureId("mm:assembly_room")
+            .ticks(600 * i)
+            .input({
+                "type": "mm:input/consume",
+                "ingredient": {
+                    "type": "mm:item",
+                    "item": "createbigcannons:nethersteel_ingot",
+                    "count": (i - 1) * 2
+                }
+            })
+            .input({
+                "type": "mm:input/consume",
+                "ingredient": {
+                    "type": "mm:item",
+                    "item": "silence_s_defense_tower:hell_core_" + (i - 1),
+                    "count": 1
+                }
+            })
+            .output({
+                "type": "mm:output/simple",
+                "ingredient": {
+                    "type": "mm:item",
+                    "item": "silence_s_defense_tower:hell_core_" + i,
+                    "count": 1
+                }
+            })
+        if(i != 4){
+            event.create("mm:hxdu_" + i)
+            .structureId("mm:assembly_room")
+            .ticks(600 * i)
+            .input({
+                "type": "mm:input/consume",
+                "ingredient": {
+                    "type": "mm:item",
+                    "item": "minetraps:toxin_bottle",
+                    "count": i
+                }
+            })
+            .input({
+                "type": "mm:input/consume",
+                "ingredient": {
+                    "type": "mm:item",
+                    "item": "silence_s_defense_tower:acid_core_" + (i - 1),
+                    "count": 1
+                }
+            })
+            .output({
+                "type": "mm:output/simple",
+                "ingredient": {
+                    "type": "mm:item",
+                    "item": "silence_s_defense_tower:acid_core_" + i,
+                    "count": 1
+                }
+            })
+        }
     }
 })
