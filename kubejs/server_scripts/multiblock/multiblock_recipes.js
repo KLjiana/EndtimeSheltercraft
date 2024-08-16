@@ -220,7 +220,7 @@ MMEvents.createProcesses(event => {
             "ingredient": {
                 "type": "mm:item",
                 "item": "silence_s_defense_tower:driving_core_1",
-                "count": 3
+                "count": 4
             }
         })
         .input({
@@ -252,7 +252,7 @@ MMEvents.createProcesses(event => {
             "ingredient": {
                 "type": "mm:item",
                 "item": "silence_s_defense_tower:hell_core_1",
-                "count": 3
+                "count": 8
             }
         })
     for (let i = 2; i <= 4; i++) {
@@ -263,8 +263,8 @@ MMEvents.createProcesses(event => {
                 "type": "mm:input/consume",
                 "ingredient": {
                     "type": "mm:item",
-                    "item": "minecraft:sentry_armor_trim_smithing_template",
-                    "count": i - 1
+                    "item": "minecraft:diamond",
+                    "count": (i - 1) * 2
                 }
             })
             .input({
@@ -272,7 +272,7 @@ MMEvents.createProcesses(event => {
                 "ingredient": {
                     "type": "mm:item",
                     "item": "silence_s_defense_tower:driving_core_" + (i - 1),
-                    "count": 1
+                    "count": 8
                 }
             })
             .output({
@@ -280,7 +280,7 @@ MMEvents.createProcesses(event => {
                 "ingredient": {
                     "type": "mm:item",
                     "item": "silence_s_defense_tower:driving_core_" + i,
-                    "count": 1
+                    "count": 8
                 }
             })
         event.create("mm:hxdie_" + i)
@@ -299,7 +299,7 @@ MMEvents.createProcesses(event => {
                 "ingredient": {
                     "type": "mm:item",
                     "item": "silence_s_defense_tower:hell_core_" + (i - 1),
-                    "count": 1
+                    "count": 8
                 }
             })
             .output({
@@ -307,7 +307,7 @@ MMEvents.createProcesses(event => {
                 "ingredient": {
                     "type": "mm:item",
                     "item": "silence_s_defense_tower:hell_core_" + i,
-                    "count": 1
+                    "count": 8
                 }
             })
         if(i != 4){
@@ -327,7 +327,7 @@ MMEvents.createProcesses(event => {
                 "ingredient": {
                     "type": "mm:item",
                     "item": "silence_s_defense_tower:acid_core_" + (i - 1),
-                    "count": 1
+                    "count": 4
                 }
             })
             .output({
@@ -335,7 +335,7 @@ MMEvents.createProcesses(event => {
                 "ingredient": {
                     "type": "mm:item",
                     "item": "silence_s_defense_tower:acid_core_" + i,
-                    "count": 1
+                    "count": 4
                 }
             })
         }
