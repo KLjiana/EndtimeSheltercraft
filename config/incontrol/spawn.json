@@ -1,1 +1,6 @@
-[]
+[
+    {
+        "phase": "safeDay",
+        "result": "deny"
+    }
+]

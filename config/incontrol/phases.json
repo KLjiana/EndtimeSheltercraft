@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "name": "safeDay",
+        "conditions": {
+            "maxdaycount": 3
+        }
+    }
+]
