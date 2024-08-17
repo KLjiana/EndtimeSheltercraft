@@ -22,3 +22,10 @@ StartupEvents.registry("item", (event) => {
     event.create("steel_ingot")
     .displayName("钢锭")
 })
+StartupEvents.registry("fluid", (event) => {
+    event.create("resin")
+    .thickTexture("#FFFFCC")
+    .color("#FFFFCC")
+    .bucketColor("#FFFFCC")
+    .displayName("树脂")
+})

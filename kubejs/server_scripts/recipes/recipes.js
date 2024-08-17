@@ -110,10 +110,10 @@ ServerEvents.recipes(event => {
     })
     event.custom({
         "type": "create:compacting",
-        "heatRequirement": "superheated",
+        "heatRequirement": "heated",
         "ingredients": [
             {
-                "item": "create:copper_casing"
+                "item": "create:industrial_iron_block"
             },
             {
                 "item": "minecraft:green_dye"
@@ -122,8 +122,8 @@ ServerEvents.recipes(event => {
                 "item": "minecraft:black_dye"
             },
             {
-                "amount": 9,
-                "fluid": "createbigcannons:molten_nethersteel",
+                "amount": 1000,
+                "fluid": "kubejs:resin",
                 "nbt": {}
             },
             {
@@ -222,4 +222,6 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying(inter, [inter, "minecraft:magma_cream"]),
         event.recipes.createDeploying(inter, [inter, "minecraft:nether_brick"])
     ]).transitionalItem(inter).loops(4)
+
+    event.recipes.create.mixing([Fluid.of("kubejs:resin")], ["#minecraft:logs"])
 }) 

@@ -182,7 +182,7 @@ MMEvents.createProcesses(event => {
             "ingredient": {
                 "type": "mm:item",
                 "item": "silence_s_defense_tower:driving_core_1",
-                "count": 1
+                "count": 16
             }
         })
     event.create("mm:hxdu_1")
@@ -220,7 +220,7 @@ MMEvents.createProcesses(event => {
             "ingredient": {
                 "type": "mm:item",
                 "item": "silence_s_defense_tower:driving_core_1",
-                "count": 4
+                "count": 16
             }
         })
         .input({
@@ -252,7 +252,7 @@ MMEvents.createProcesses(event => {
             "ingredient": {
                 "type": "mm:item",
                 "item": "silence_s_defense_tower:hell_core_1",
-                "count": 8
+                "count": 64
             }
         })
     for (let i = 2; i <= 4; i++) {
