@@ -5,6 +5,19 @@
       "name": "KL_jiana",
       "uniqueId": "f4c39e0c-a391-4416-ae0d-329388b0aec1"
     },
+    "time": 1723823871007,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "D:\\minecraft\\pl\\instances\\困境末世 - EndtimeSheltercraft\\.minecraft\\config\\spark\\profile-2024-08-16_23.57.50.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KL_jiana",
+      "uniqueId": "f4c39e0c-a391-4416-ae0d-329388b0aec1"
+    },
     "time": 1723811800920,
     "type": "Profiler",
     "data": {

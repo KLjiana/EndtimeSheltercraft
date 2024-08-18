@@ -2,7 +2,7 @@
     {
         "name": "safeDay",
         "conditions": {
-            "maxdaycount": 3
+            "maxdaycount": 2
         }
     }
 ]

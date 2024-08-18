@@ -59,6 +59,11 @@ let type_5 = ["minecraft:zombified_piglin"]
 
 EntityEvents.spawned(event => {
     const { entity } = event
-    //console.info(`${entity.toString()}`)
-    entity.type.indexOf("zombie_island:runner") != -1 ? event.cancel() : event.success;
+    //console.info(entity.type + entity.monster)
+    if (entity.monster) {
+        type_1.forEach(monster => {
+            if (entity.type.indexOf(monster) != -1) event.success();
+        })
+        event.cancel()
+    }
 })
