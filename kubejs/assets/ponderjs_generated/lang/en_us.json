@@ -1,0 +1,19 @@
+{
+  "kubejs.ponder.cokery.header": "焦炉",
+  "kubejs.ponder.cokery_1.header": "焦炉: 结构",
+  "kubejs.ponder.cokery_2.header": "焦炉: 部件",
+  "kubejs.ponder.cokery_2.text_1": "这是焦炉的控制器",
+  "kubejs.ponder.cokery_2.text_2": "也是焦炉结构的重要组成部分",
+  "kubejs.ponder.cokery_2.text_3": "还有...",
+  "kubejs.ponder.cokery_2.text_4": "输入",
+  "kubejs.ponder.cokery_2.text_5": "和输出!",
+  "kubejs.ponder.cokery_2.text_6": "实际上,输入和输出端口是可以升级的!",
+  "kubejs.ponder.cokery_2.text_7": "这就是第二层的完整结构了!",
+  "kubejs.ponder.cokery_3.header": "焦炉",
+  "kubejs.ponder.cokery_3.text_1": "此时打开控制器,若显示Formed As: Cokery,即为搭建成功!",
+  "kubejs.ponder.cokery_3.text_2": "放入煤炭",
+  "kubejs.ponder.cokery_3.text_3": "放入煤炭.",
+  "kubejs.ponder.cokery_3.text_4": "放入煤炭..",
+  "kubejs.ponder.cokery_3.text_5": "放入煤炭...",
+  "kubejs.ponder.cokery_3.text_6": "输出焦煤!"
+}
