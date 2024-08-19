@@ -60,7 +60,7 @@ let type_5 = ["minecraft:zombified_piglin"]
 EntityEvents.spawned(event => {
     const { entity } = event
     //console.info(entity.type + entity.monster)
-    if (entity.monster) {
+    if (entity.monster && entity.type.indexOf('silence_s_defense_tower') == -1) {
         type_1.forEach(monster => {
             if (entity.type.indexOf(monster) != -1) event.success();
         })
