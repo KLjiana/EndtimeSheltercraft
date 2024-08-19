@@ -3,5 +3,5 @@ BlockEvents.rightClicked(event=>{
     let data = event.server.persistentData
     let score = data.getInt("loot_score")
     data.putInt("loot_score", ++score)
-    console.info(score)
+    //console.info(score)
 })
