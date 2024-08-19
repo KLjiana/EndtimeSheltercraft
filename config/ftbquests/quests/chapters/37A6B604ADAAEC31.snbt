@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "37A6B604ADAAEC31"
 	group: "1094081B8B58E75F"
-	icon: { Count: 64, id: "mm:blueprint" }
+	icon: "mm:blueprint"
 	id: "37A6B604ADAAEC31"
 	order_index: 0
 	quest_links: [ ]
