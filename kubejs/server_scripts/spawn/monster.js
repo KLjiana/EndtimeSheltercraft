@@ -31,7 +31,6 @@ let type_3 = ["minecraft:cave_spider",
     "tacz_npcs:terrorist_no_armor",
     "tacz_npcs:terrorist_scav_pistol_armored",
     "tacz_npcs:terrorist_scav",
-    "mutantmonsters:spider_pig",
     "mutantmonsters:mutant_zombie",
     "minecraft:ghast",
     "minecraft:slime",
@@ -59,11 +58,53 @@ let type_5 = ["minecraft:zombified_piglin"]
 
 EntityEvents.spawned(event => {
     const { entity } = event
-    //console.info(entity.type + entity.monster)
+    let data = event.server.persistentData
+    let loot = data.getInt("loot_score")
+    let fight = data.getInt("fight_score")
+
     if (entity.monster && entity.type.indexOf('silence_s_defense_tower') == -1) {
-        type_1.forEach(monster => {
-            if (entity.type.indexOf(monster) != -1) event.success();
-        })
-        event.cancel()
+        if(230 <= loot && 3000 < fight){
+            if (!data.getBoolean('stage_4')){
+                event.server.tell(Component.literal("最终变种，觉醒了！").lightPurple().color(Color.RED))
+                data.putBoolean('stage_4', true)
+            }
+            type_4.forEach(monster => {
+                if (entity.type.indexOf(monster) != -1) event.success();
+            })
+            event.cancel()
+        }
+
+        if(130 <= loot && 1000 < fight){
+            if (!data.getBoolean('stage_3')){
+                event.server.tell(Component.literal("这将会是恐怖的一天，怪物变得更多种了").lightPurple().color(Color.RED))
+                data.putBoolean('stage_3', true)
+            }
+            type_3.forEach(monster => {
+                if (entity.type.indexOf(monster) != -1) event.success();
+            })
+            event.cancel()
+        }
+
+        if(50 <= loot && 70 < fight){
+            if (!data.getBoolean('stage_2')){
+                event.server.tell(Component.literal("越来越多了，还有变种！").lightPurple().color(Color.RED))
+                data.putBoolean('stage_2', true)
+            }
+            type_2.forEach(monster => {
+                if (entity.type.indexOf(monster) != -1) event.success();
+            })
+            event.cancel()
+        }
+
+        if (loot < 50){
+            if (!data.getBoolean('stage_1')){
+                event.server.tell(Component.literal("僵尸开始出现，小心他们").lightPurple().color(Color.RED))
+                data.putBoolean('stage_1', true)
+            }
+            type_1.forEach(monster => {
+                if (entity.type.indexOf(monster) != -1) event.success();
+            })
+            event.cancel()
+        }
     }
 })
