@@ -1,6 +1,16 @@
 [
     {
+        "phase": "10Days",
+        "hostile": true,
+        "healthmultiply": 2,
+        "speedmultiply": 1.5,
+        "damagemultiply": 1.2,
+        "when": "onjoin",
+        "result": "default"
+    },
+    {
         "phase": "safeDay",
+        "hostile": true,
         "result": "deny"
     }
 ]

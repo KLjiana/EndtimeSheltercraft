@@ -4,5 +4,65 @@
         "conditions": {
             "maxdaycount": 2
         }
+    },
+    {
+        "name": "10Days",
+        "conditions": {
+            "mindaycount": 10
+        }
+    },
+    {
+        "name": "20Days",
+        "conditions": {
+            "mindaycount": 20
+        }
+    },
+    {
+        "name": "30Days",
+        "conditions": {
+            "mindaycount": 30
+        }
+    },
+    {
+        "name": "40Days",
+        "conditions": {
+            "mindaycount": 40
+        }
+    },
+    {
+        "name": "50Days",
+        "conditions": {
+            "mindaycount": 50
+        }
+    },
+    {
+        "name": "60Days",
+        "conditions": {
+            "mindaycount": 60
+        }
+    },
+    {
+        "name": "70Days",
+        "conditions": {
+            "mindaycount": 70
+        }
+    },
+    {
+        "name": "80Days",
+        "conditions": {
+            "mindaycount": 80
+        }
+    },
+    {
+        "name": "90Days",
+        "conditions": {
+            "mindaycount": 90
+        }
+    },
+    {
+        "name": "100Days",
+        "conditions": {
+            "mindaycount": 100
+        }
     }
 ]
