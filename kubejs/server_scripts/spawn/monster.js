@@ -27,7 +27,7 @@ let type_2 = ["rotted:marine",
     "minecraft:phantom"]
 
 let type_3 = ["minecraft:cave_spider",
-    "eeeabsmobs:corpse_warlock_egg",
+    "eeeabsmobs:corpse_warlock",
     "tacz_npcs:terrorist_no_armor",
     "tacz_npcs:terrorist_scav_pistol_armored",
     "tacz_npcs:terrorist_scav",
@@ -47,8 +47,7 @@ let type_4 = ["themutantmobsmod:mutantstray",
     "themutantmobsmod:mutant_drowned",
     "tntslimes:tnt_slime",
     "themutantmobsmod:mutant_zombified_piglin",
-    "minecraft:warden",
-    "eeeabsmobs:nameless_guardian_egg",
+    "eeeabsmobs:nameless_guardian",
     "mutantmonsters:mutant_skeleton",
     "mutantmonsters:mutant_enderman",
     "themutantmobsmod:gigaillager",
@@ -69,7 +68,7 @@ EntityEvents.spawned(event => {
                 data.putBoolean('stage_4', true)
             }
             type_4.forEach(monster => {
-                if (entity.type.indexOf(monster) != -1) event.success();
+                if (entity.type.indexOf(monster) != -1) event.exit();
             })
             event.cancel()
         }
@@ -80,7 +79,7 @@ EntityEvents.spawned(event => {
                 data.putBoolean('stage_3', true)
             }
             type_3.forEach(monster => {
-                if (entity.type.indexOf(monster) != -1) event.success();
+                if (entity.type.indexOf(monster) != -1) event.exit();
             })
             event.cancel()
         }
@@ -91,7 +90,7 @@ EntityEvents.spawned(event => {
                 data.putBoolean('stage_2', true)
             }
             type_2.forEach(monster => {
-                if (entity.type.indexOf(monster) != -1) event.success();
+                if (entity.type.indexOf(monster) != -1) event.exit();
             })
             event.cancel()
         }
@@ -102,7 +101,7 @@ EntityEvents.spawned(event => {
                 data.putBoolean('stage_1', true)
             }
             type_1.forEach(monster => {
-                if (entity.type.indexOf(monster) != -1) event.success();
+                if (entity.type.indexOf(monster) != -1) event.exit();
             })
             event.cancel()
         }

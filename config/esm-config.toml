@@ -5,15 +5,15 @@ incenemies = false
 #Should special mobs spawn riding other mobs?
 isjockies = true
 #Charged Creepers Spawn Naturally
-ischargedcreepers = true
+ischargedcreepers = false
 #Allow Bloodlusting Enemies
-isbloodlusting = true
+isbloodlusting = false
 #Give Zombies Pickaxes and Weapons?
-iszombiepickaxes = true
+iszombiepickaxes = false
 #Give Zombies Armor?
-iszombiearmor = true
+iszombiearmor = false
 #Give Skeletons Armor?
-isskeletonarmor = true
+isskeletonarmor = false
 #Allow Zombies to Lay TNT?
 iszombietnt = true
 #Chance of zombies placing TNT each tick if in distance.
@@ -81,7 +81,7 @@ entitydigdelay = 5
 #Cooloff time for entities placing blocks in ticks
 entitybuilddelay = 5
 #If entity is within this distance for X and Z, it'll start digging to player
-entitydigdist = 32
+entitydigdist = 64
 #Above Ground Monster Attack Distance (in Blocks)
 grounddist = 96
 #Below Ground Monster Attack Distance (in Blocks)

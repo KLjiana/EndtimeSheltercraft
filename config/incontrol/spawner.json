@@ -1,1 +1,169 @@
-[]
+[
+  {
+    "mob": ["themutantmobsmod:mutant_drowned","themutantmobsmod:mutantstray","tntslimes:tnt_slime","themutantmobsmod:mutant_zombified_piglin","themutantmobsmod:gigaillager"],
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "maxthis": 4
+    }
+  },
+  {
+    "phase": "80Days",
+    "mobsfrombiome": "monster",
+    "persecond": 1,
+    "attempts": 30,
+    "amount": {
+      "minimum": 8,
+      "maximum": 12
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inair": true,
+      "inliquid": true,
+      "minverticaldist": 18,
+      "maxverticaldist": 256,
+      "mindist": 18,
+      "maxdist": 256,
+      "norestrictions": true,
+      "maxhostile": 300
+    }
+  },
+  {
+    "phase": "80Days",
+    "mobsfrombiome": "monster",
+    "persecond": 1,
+    "attempts": 30,
+    "amount": {
+      "minimum": 8,
+      "maximum": 12
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inair": true,
+      "inliquid": true,
+      "minverticaldist": 18,
+      "maxverticaldist": 256,
+      "mindist": 18,
+      "maxdist": 256,
+      "norestrictions": true,
+      "maxhostile": 250
+    }
+  },
+  {
+    "phase": "80Days",
+    "mobsfrombiome": "monster",
+    "persecond": 1,
+    "attempts": 30,
+    "amount": {
+      "minimum": 8,
+      "maximum": 12
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inair": true,
+      "inliquid": true,
+      "minverticaldist": 18,
+      "maxverticaldist": 256,
+      "mindist": 18,
+      "maxdist": 256,
+      "norestrictions": true,
+      "maxhostile": 220
+    }
+  },
+  {
+    "phase": "70Days",
+    "mobsfrombiome": "monster",
+    "persecond": 1,
+    "attempts": 30,
+    "amount": {
+      "minimum": 8,
+      "maximum": 12
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 15,
+      "maxdist": 256,
+      "norestrictions": true,
+      "maxhostile": 220
+    }
+  },
+  {
+    "phase": "60Days",
+    "mobsfrombiome": "monster",
+    "persecond": 1,
+    "attempts": 30,
+    "amount": {
+      "minimum": 5,
+      "maximum": 8
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 15,
+      "maxdist": 256,
+      "norestrictions": true,
+      "maxhostile": 150
+    }
+  },
+  {
+    "phase": "50Days",
+    "mobsfrombiome": "monster",
+    "persecond": 1,
+    "attempts": 30,
+    "amount": {
+      "minimum": 5,
+      "maximum": 8
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 12,
+      "maxdist": 256,
+      "norestrictions": true,
+      "maxhostile": 120
+    }
+  },
+  {
+    "phase": "40Days",
+    "mobsfrombiome": "monster",
+    "persecond": 1,
+    "attempts": 30,
+    "amount": {
+      "minimum": 5,
+      "maximum": 8
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 10,
+      "maxdist": 256,
+      "norestrictions": true,
+      "maxhostile": 120
+    }
+  },
+  {
+    "phase": "30Days",
+    "mobsfrombiome": "monster",
+    "persecond": 1,
+    "attempts": 30,
+    "amount": {
+      "minimum": 5,
+      "maximum": 8
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "maxhostile": 120
+    }
+  },
+  {
+    "phase": "20Days",
+    "mobsfrombiome": "monster",
+    "persecond": 1,
+    "attempts": 20,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "maxhostile": 100
+    }
+  }
+]
