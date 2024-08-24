@@ -2,21 +2,42 @@
     {
         "dimension": "minecraft:overworld",
         "mob": "aqua_creepers:aqua_creeper",
-        "mincount": 10,
+        "mincount": 11,
         "when": "onjoin",
         "result": "deny"
     },
     {
         "dimension": "minecraft:overworld",
         "mob": "eeeabsmobs:nameless_guardian",
-        "mincount": 1,
+        "mincount": 2,
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "themutantmobsmod:mutant_drowned",
+        "mincount": 3,
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "themutantmobsmod:mutant_zombified_piglin",
+        "mincount": 4,
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mob": "themutantmobsmod:mutantstray",
+        "mincount": 3,
         "when": "onjoin",
         "result": "deny"
     },
     {
         "dimension": "minecraft:overworld",
         "mob": "themutantmobsmod:gigaillager",
-        "mincount": 1,
+        "mincount": 2,
         "when": "onjoin",
         "result": "deny"
     },
@@ -57,6 +78,18 @@
         ],
         "when": "onjoin",
         "result": "default"
+    },
+    {
+        "phase": "100Days",
+        "passive": true,
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "phase": "90Days",
+        "passive": true,
+        "when": "onjoin",
+        "result": "deny"
     },
     {
         "phase": "80Days",

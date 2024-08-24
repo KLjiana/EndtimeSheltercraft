@@ -1,13 +1,6 @@
 [
   {
-    "mob": ["themutantmobsmod:mutant_drowned","themutantmobsmod:mutantstray","tntslimes:tnt_slime","themutantmobsmod:mutant_zombified_piglin","themutantmobsmod:gigaillager"],
-    "conditions": {
-      "dimension": "minecraft:overworld",
-      "maxthis": 4
-    }
-  },
-  {
-    "phase": "80Days",
+    "phase": "100Days",
     "mobsfrombiome": "monster",
     "persecond": 1,
     "attempts": 30,
@@ -28,7 +21,7 @@
     }
   },
   {
-    "phase": "80Days",
+    "phase": "90Days",
     "mobsfrombiome": "monster",
     "persecond": 1,
     "attempts": 30,
