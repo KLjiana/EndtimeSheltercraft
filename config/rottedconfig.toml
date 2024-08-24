@@ -70,11 +70,11 @@
 ["Past Loot"]
 	#Default 0.15
 	#Range: 0.0 ~ 1.0
-	"Sets the past-loot drop chance( loot from the zombie's past life )" = 0.15
+	"Sets the past-loot drop chance( loot from the zombie's past life )" = 0.0
 
 	["Past Loot"."Should Farmers or other Zombies drop past-loot( wheat, iron_ore, carrot, etc"]
 		#Default true
-		" )?" = true
+		" )?" = false
 
 [Adventurer]
 	#Default 3

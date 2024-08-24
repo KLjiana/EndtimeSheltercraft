@@ -21,4 +21,20 @@ ServerEvents.recipes(event=>{
     ]).damageIngredient("minecraft:shears", 5)
 
     event.campfireCooking('minecraft:leather', 'minecraft:rotten_flesh')
+
+    event.shaped(Item.of('tacz:ammo_box', '{AllTypeCreative:1b}'), [
+        'ABN',
+        'CSG',
+        'ZEI'
+    ], {
+        A: 'create:andesite_alloy_block',
+        N: 'minecraft:netherite_block',
+        B: 'create:brass_block',
+        C: Item.of('mutantmonsters:creeper_shard'),
+        S: 'minecraft:nether_star',
+        G: Item.of('eeeabsmobs:guardian_core'),
+        Z: 'create:zinc_block',
+        E: Item.of('mutantmonsters:endersoul_hand'),
+        I: 'create:industrial_iron_block'
+    })
 })

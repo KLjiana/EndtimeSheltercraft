@@ -1,5 +1,38 @@
 [
   {
+    "mob": [
+      "rotted:marine",
+      "rotted:shielder",
+      "rotted:flusk",
+      "rotted:adventurer",
+      "rotted:miner",
+      "rotted:farmer",
+      "rotted:doctor",
+      "minecraft:vindicator",
+      "minecraft:evoker",
+      "minecraft:wither_skeleton",
+      "minecraft:blaze",
+      "minecraft:cave_spider",
+      "eeeabsmobs:corpse_warlock",
+      "tacz_npcs:terrorist_no_armor",
+      "tacz_npcs:terrorist_scav_pistol_armored",
+      "tacz_npcs:terrorist_scav",
+      "mutantmonsters:mutant_zombie",
+      "minecraft:ghast",
+      "minecraft:slime",
+      "minecraft:spider",
+      "minecraft:ravager",
+      "minecraft:silverfish",
+      "minecraft:skeleton",
+      "minecraft:zoglin",
+      "eeeabsmobs:nameless_guardian"
+    ],
+    "conditions": {
+      "dimension": "minecraft:overworld"
+    }
+  },
+  
+  {
     "phase": "100Days",
     "mobsfrombiome": "monster",
     "persecond": 1,
@@ -20,6 +53,7 @@
       "maxhostile": 300
     }
   },
+
   {
     "phase": "90Days",
     "mobsfrombiome": "monster",
@@ -41,6 +75,7 @@
       "maxhostile": 250
     }
   },
+
   {
     "phase": "80Days",
     "mobsfrombiome": "monster",
@@ -62,6 +97,7 @@
       "maxhostile": 220
     }
   },
+
   {
     "phase": "70Days",
     "mobsfrombiome": "monster",
@@ -79,6 +115,7 @@
       "maxhostile": 220
     }
   },
+
   {
     "phase": "60Days",
     "mobsfrombiome": "monster",
@@ -96,6 +133,7 @@
       "maxhostile": 150
     }
   },
+
   {
     "phase": "50Days",
     "mobsfrombiome": "monster",
@@ -113,6 +151,7 @@
       "maxhostile": 120
     }
   },
+
   {
     "phase": "40Days",
     "mobsfrombiome": "monster",
@@ -130,6 +169,7 @@
       "maxhostile": 120
     }
   },
+
   {
     "phase": "30Days",
     "mobsfrombiome": "monster",
@@ -145,6 +185,7 @@
       "maxhostile": 120
     }
   },
+  
   {
     "phase": "20Days",
     "mobsfrombiome": "monster",
