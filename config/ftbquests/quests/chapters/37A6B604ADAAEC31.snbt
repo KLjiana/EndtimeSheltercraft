@@ -70,6 +70,28 @@
 			x: 2.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["1871C91E80BD0794"]
+			id: "5482EA14359C82D9"
+			tasks: [{
+				id: "0752F45678AA95B1"
+				item: "mm:assembly_room_controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1871C91E80BD0794"]
+			id: "56B6DFE5F2CBB1FA"
+			tasks: [{
+				id: "0E687305FF04F936"
+				item: "mm:blast_furnace_controller"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
 	]
 	title: "多方块结构"
 }
