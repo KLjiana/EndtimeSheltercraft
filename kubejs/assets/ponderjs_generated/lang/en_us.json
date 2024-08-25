@@ -1,4 +1,5 @@
 {
+  "kubejs.ponder.assembly_room.header": "装配室",
   "kubejs.ponder.blast_furnace_1.header": "高炉: 结构",
   "kubejs.ponder.blast_furnace_2.header": "高炉: 部件",
   "kubejs.ponder.blast_furnace_2.text_1": "这是高炉的控制器",
