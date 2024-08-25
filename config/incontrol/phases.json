@@ -8,70 +8,70 @@
     {
         "name": "10Days",
         "conditions": {
-            "mindaycount": 10,
-            "maxdaycount": 20
+            "mindaycount": 30,
+            "maxdaycount": 60
         }
     },
     {
         "name": "20Days",
         "conditions": {
-            "mindaycount": 20,
-            "maxdaycount": 30
+            "mindaycount": 60,
+            "maxdaycount": 90
         }
     },
     {
         "name": "30Days",
         "conditions": {
-            "mindaycount": 30,
-            "maxdaycount": 40
+            "mindaycount": 90,
+            "maxdaycount": 120
         }
     },
     {
         "name": "40Days",
         "conditions": {
-            "mindaycount": 40,
-            "maxdaycount": 50
+            "mindaycount": 120,
+            "maxdaycount": 150
         }
     },
     {
         "name": "50Days",
         "conditions": {
-            "mindaycount": 50,
-            "maxdaycount": 60
+            "mindaycount": 190,
+            "maxdaycount": 220
         }
     },
     {
         "name": "60Days",
         "conditions": {
-            "mindaycount": 60,
-            "maxdaycount": 70
+            "mindaycount": 220,
+            "maxdaycount": 250
         }
     },
     {
         "name": "70Days",
         "conditions": {
-            "mindaycount": 70,
-            "maxdaycount": 80
+            "mindaycount": 250,
+            "maxdaycount": 280
         }
     },
     {
         "name": "80Days",
         "conditions": {
-            "mindaycount": 80,
-            "maxdaycount": 90
+            "mindaycount": 280,
+            "maxdaycount": 310
         }
     },
     {
         "name": "90Days",
         "conditions": {
-            "mindaycount": 90,
-            "maxdaycount": 100
+            "mindaycount": 310,
+            "maxdaycount": 400
         }
     },
     {
         "name": "100Days",
         "conditions": {
-            "mindaycount": 100
+            "mindaycount": 400
         }
     }
 ]

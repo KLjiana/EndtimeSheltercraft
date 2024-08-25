@@ -1,0 +1,752 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "39E77C0262A8E57D"
+	group: "1094081B8B58E75F"
+	icon: "minetraps:razor_wire"
+	id: "39E77C0262A8E57D"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "326B429B4DF2B2E7"
+			tasks: [{
+				id: "4854B0A9278E2D37"
+				item: "minetraps:barbed_wire"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			id: "07AA7D5F97D06144"
+			tasks: [{
+				id: "6A94CCC19D4BCC9F"
+				item: "minetraps:razor_wire"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "551EF8BAD531C25C"
+			tasks: [{
+				id: "44DA4CC287984C4B"
+				item: "minetraps:barbed_wire_fence"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "0046410D2247F6C1"
+			tasks: [{
+				id: "1CC9B43F9F368CC2"
+				item: "minetraps:chest_bomb"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "6C552024232B31DA"
+			tasks: [{
+				id: "2254B338FEE4112D"
+				item: "minetraps:bear_trap"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "041E5E43837281A4"
+			tasks: [{
+				id: "6A6E7BB63FE26DA0"
+				item: "minetraps:explosive_mine"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "45050554FECC7842"
+			tasks: [{
+				id: "4CD50D661127FA02"
+				item: "minetraps:toxic_mine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "51CABAEDB56A5ED8"
+			tasks: [{
+				id: "5C62D5DB556BE9E8"
+				item: "minetraps:quicksand"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "3398B5A8866E84D6"
+			tasks: [{
+				id: "62984290E999104A"
+				item: "minetraps:obstacle"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "56804ABED021C552"
+			tasks: [{
+				id: "159DEF2DB7FCAA79"
+				item: "minetraps:nail_trap"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "13C6268E21E544F3"
+			tasks: [{
+				id: "72BB0BF5565D99B0"
+				item: "minetraps:toxic_nail_trap"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "1D90C4D14C3458FE"
+			tasks: [{
+				id: "0020E70DEF51E856"
+				item: "minetraps:spikes"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "608D723C0E7D116D"
+			tasks: [{
+				id: "5D20F0291E96D113"
+				item: "minetraps:pitfall_trap"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "2483A7731A14AADB"
+			tasks: [{
+				id: "0023E25168D1AC3F"
+				item: "minetraps:spikes_toxic"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "4D11D8A377E95E14"
+			tasks: [{
+				id: "77804EC5209B0AC5"
+				item: "minetraps:ghost_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "1FB135F0BB9513ED"
+			tasks: [{
+				id: "53CA5A514FE5FA83"
+				item: "minetraps:troll_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "19C7FD3C3F185513"
+			tasks: [{
+				id: "4BB46245493E5AB4"
+				item: "minetraps:nails"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "6072433FB0026E0B"
+			tasks: [{
+				id: "33E3AB81DFD4F28D"
+				item: "minetraps:toxin_bottle"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "6EBFA87E338F30BE"
+			tasks: [{
+				id: "306F1D6CA6C2CCC4"
+				item: "minetraps:toxin_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			description: ["建议直接用思索看材料组装"]
+			id: "6D1D0272841BDA62"
+			tasks: [{
+				id: "3AF3FF848B1495EA"
+				item: "createbigcannons:cannon_mount"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			id: "0CD701D040D2B0E6"
+			tasks: [{
+				id: "03450D3FB9F9D9FA"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:black_hole_generator_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "409B6746F5CCD7F0"
+			tasks: [{
+				id: "4E8B1ED01BB980CF"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:tyrant_cannon_level1_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "2F9B42A0DBAE3AA7"
+			tasks: [{
+				id: "354D081CCC92B4F3"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:tyrant_cannon_level2_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "553D1697E3A3AA09"
+			tasks: [{
+				id: "420599FD10BD136A"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:amethyst_cannon_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			id: "7F90952EA4E3F277"
+			tasks: [{
+				id: "4EC270F0AF110763"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:type_c_robot_barracks_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "4F591915FAC1F12A"
+			tasks: [{
+				id: "27073B819ECBB142"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:type_a_robot_barracks_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "4101F0E1172645D1"
+			tasks: [{
+				id: "48E8A0DEFB82C952"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:type_s_robot_barracks_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "60A77DCFF59C4FBA"
+			tasks: [{
+				id: "54FDFB4653B3610C"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:biological_jamming_device_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "0233D036C62599B5"
+			tasks: [{
+				id: "4501047EC331B069"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:cannon_level1_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "53A1A1EDBB3B8606"
+			tasks: [{
+				id: "537584CA51B8554B"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:cannon_level2_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "68ECB20EC0F805E7"
+			tasks: [{
+				id: "58DF490DE515C058"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:ice_cannon_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "4E99F960C89DFA8B"
+			tasks: [{
+				id: "15F76EF9614505B8"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:arrow_turret_leavl1_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "3EED59C494C62F1C"
+			tasks: [{
+				id: "32994989EDC47FBD"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:arrow_turret_leavl2_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "38374B7621017783"
+			tasks: [{
+				id: "21E6AD10C11549D1"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:dart_launcher_level1_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			id: "5F7C2D219597A7B6"
+			tasks: [{
+				id: "05FFED2D5AC8A41C"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:dart_launcher_level2_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			id: "076F98B2A120CA09"
+			tasks: [{
+				id: "2CF8AF0283B34F6F"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:heavy_crossbow_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "3996370025BF8755"
+			tasks: [{
+				id: "24D31A1595E5E764"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:acid_eater_level1_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "2BEF4944371C5BDD"
+			tasks: [{
+				id: "12746DD7E83ED232"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:acid_eater_level2_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "50FDF75C1C121DEC"
+			tasks: [{
+				id: "617FF2D80FBFD311"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:acid_eater_level3_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			id: "302357D2AD45CE43"
+			tasks: [{
+				id: "2BA1B16318C5DC8D"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:hellraiser_level_1_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			id: "3B209C2619D3D5BD"
+			tasks: [{
+				id: "141A885A16AB12C9"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:hellraiser_level_2_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "3B287DAD999CF739"
+			tasks: [{
+				id: "31D01EE308DBACBC"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:hellraiser_level_3_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			id: "19C3783E8EFA6076"
+			tasks: [{
+				id: "322E26E706534D07"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:hellraiser_level_4_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "30B87830B78D9D7B"
+			tasks: [{
+				id: "535BDEC0FDE2BDB5"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:sentry_gun_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			id: "14CAA90B4CC4BF8B"
+			tasks: [{
+				id: "330F5DB378B921E8"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:sticky_bomb_battery_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			id: "2159F17BB9EA5EEC"
+			tasks: [{
+				id: "303AD6351B8CBA6C"
+				item: "silence_s_defense_tower:tesla_electric_tower"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			id: "6C450675D50AC37E"
+			tasks: [{
+				id: "30F7FB6C7E821229"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:submarine_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "412E8B039DD91B4C"
+			tasks: [{
+				id: "604A355B80AA6844"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:candy_turret_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			id: "4C037131541B2FB5"
+			tasks: [{
+				id: "3221E1A614D7863B"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:giant_dart_launcher_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			id: "74BB6D632BE3976B"
+			tasks: [{
+				id: "00DF6F9671FBA3E1"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:firework_launcher_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			id: "439348C08826DB85"
+			tasks: [{
+				id: "0759B367F9F2BFEA"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:miniature_electromagnetic_gun_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			id: "510E0CDD425E684D"
+			tasks: [{
+				id: "79834EC36F328ACA"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:ball_lightning_gennerator_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			id: "7E430DAEB9436B13"
+			tasks: [{
+				id: "39789BDC2B0058DD"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:electromagnetic_gun_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			id: "08F4AD42050F8B0F"
+			tasks: [{
+				id: "56477CD76F805301"
+				item: {
+					Count: 1
+					id: "silence_s_defense_tower:electromagnetic_railgun_p"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+	]
+	title: "防御工设"
+}

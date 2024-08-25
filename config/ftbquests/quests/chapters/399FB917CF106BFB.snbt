@@ -1,0 +1,249 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "399FB917CF106BFB"
+	group: "1094081B8B58E75F"
+	icon: {
+		Count: 1
+		id: "tacz:modern_kinetic_gun"
+		tag: {
+			GunCurrentAmmoCount: 75
+			GunFireMode: "AUTO"
+			GunId: "tacz:m249"
+			HasBulletInBarrel: 1b
+		}
+	}
+	id: "399FB917CF106BFB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "31B6C12E29A64F23"
+			tasks: [{
+				id: "2EE32195729DAD51"
+				item: {
+					Count: 1
+					id: "vc_gliders:paraglider_wood"
+					tag: {
+						Damage: 0
+						glide: 0b
+						struck: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			id: "52331583880EF851"
+			tasks: [{
+				id: "522541842EB89439"
+				item: {
+					Count: 1
+					id: "vc_gliders:paraglider_iron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			id: "1E3897E6D88DBD86"
+			tasks: [{
+				id: "0747C36A9E57E581"
+				item: {
+					Count: 1
+					id: "vc_gliders:paraglider_gold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			id: "1F31706E9C9CEB9C"
+			tasks: [{
+				id: "4AAE8041A8D20D66"
+				item: {
+					Count: 1
+					id: "vc_gliders:paraglider_diamond"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			id: "334F2A614D83C10D"
+			tasks: [{
+				id: "4FB4763EB9D246E3"
+				item: {
+					Count: 1
+					id: "vc_gliders:paraglider_netherite"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "55F4460A90B45194"
+			tasks: [{
+				id: "20EBD5508414E438"
+				item: "vc_gliders:reinforced_paper"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			id: "3E851BB814E4E932"
+			tasks: [{
+				id: "5DED1B3D1C5AB6AC"
+				item: "vc_gliders:reinforced_paper_iron"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "0681A31A8D959AA7"
+			tasks: [{
+				id: "5DD87F73276DE021"
+				item: "vc_gliders:reinforced_paper_gold"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "0C5B45764803BFF8"
+			tasks: [{
+				id: "7F35E17F6806E4D7"
+				item: "vc_gliders:reinforced_paper_diamond"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "33163A7EB9FDC360"
+			tasks: [{
+				id: "1BFDC2C3601D6B17"
+				item: "vc_gliders:reinforced_paper_netherite"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "46AF00E4D6119D89"
+			tasks: [{
+				id: "39DE1794F7D12464"
+				item: "backpacked:backpack"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			id: "15EC651DA6464B6C"
+			tasks: [{
+				id: "75C31F3D27AD90C9"
+				item: "hook:grappling_hook"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			description: ["从中挑选你喜欢的武器吧"]
+			id: "09D4642FF63E7944"
+			tasks: [{
+				id: "4C0AA21C27828AB8"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "09A0E4970192C82E"
+			tasks: [{
+				id: "11C169A81F9B1922"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Level: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "7683624D6E102D1C"
+			tasks: [{
+				id: "79E009FDF9E66127"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Level: 1
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "485483135941A404"
+			tasks: [{
+				id: "55A979C852DCFB7C"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Level: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "27FD9CF35E7E0354"
+			tasks: [{
+				id: "2F7F58395E838804"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						AllTypeCreative: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+	]
+	title: "武器选择"
+}

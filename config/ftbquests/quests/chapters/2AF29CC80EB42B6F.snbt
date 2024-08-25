@@ -1,0 +1,274 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2AF29CC80EB42B6F"
+	group: "1094081B8B58E75F"
+	icon: "legendarysurvivaloverhaul:bandage"
+	id: "2AF29CC80EB42B6F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3172668A4A1D57F4"
+			tasks: [{
+				id: "31C272DA058B870B"
+				item: "legendarysurvivaloverhaul:purified_water_bottle"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "3EFFA44A17E9B973"
+			tasks: [{
+				id: "0F922B4489EC53B5"
+				item: "legendarysurvivaloverhaul:canteen"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			id: "00BEA799CAEF1C42"
+			tasks: [{
+				id: "42F842938E0F30A2"
+				item: "legendarysurvivaloverhaul:large_canteen"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			id: "44C9AEC515FD84AA"
+			tasks: [{
+				id: "0C701060965E1527"
+				item: "legendarysurvivaloverhaul:apple_juice"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			id: "236F31F7AF4724EB"
+			tasks: [{
+				id: "702F9979522CD20F"
+				item: "legendarysurvivaloverhaul:beetroot_juice"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			id: "10E57ECAFC46EC80"
+			tasks: [{
+				id: "25922E83C00373AC"
+				item: "legendarysurvivaloverhaul:cactus_juice"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			id: "0FD9C4F6E0222061"
+			tasks: [{
+				id: "21C96804DC805D5D"
+				item: "legendarysurvivaloverhaul:carrot_juice"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			id: "447B0E4DCD8BD7CD"
+			tasks: [{
+				id: "206CE7CB39178010"
+				item: "legendarysurvivaloverhaul:chorus_fruit_juice"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			id: "70B24CB09E7BC6BA"
+			tasks: [{
+				id: "1EE509F9CE624FC3"
+				item: "legendarysurvivaloverhaul:glistering_melon_juice"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "089048A040DC7C2E"
+			tasks: [{
+				id: "45FFD5F502A5EEEE"
+				item: "legendarysurvivaloverhaul:golden_apple_juice"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			id: "2C09629519B57791"
+			tasks: [{
+				id: "71B811C7D9BDEBAC"
+				item: "legendarysurvivaloverhaul:golden_carrot_juice"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			id: "0FDAFC27872CD441"
+			tasks: [{
+				id: "0DA5D63B5F032896"
+				item: "legendarysurvivaloverhaul:melon_juice"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "16D3B38297E43174"
+			tasks: [{
+				id: "3A7C0BCB5EF1ECCA"
+				item: "legendarysurvivaloverhaul:pumpkin_juice"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			id: "6F8FDF610D45B359"
+			tasks: [{
+				id: "5C4865843AEB6D12"
+				item: "legendarysurvivaloverhaul:bandage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "09C2C030DE7542A4"
+			tasks: [{
+				id: "7E545FFB57A919F1"
+				item: "legendarysurvivaloverhaul:healing_herbs"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "7BABEEC0E8410369"
+			tasks: [{
+				id: "2F3A11AF068851EE"
+				item: "legendarysurvivaloverhaul:medikit"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "4E146F0975AD6EEC"
+			tasks: [{
+				id: "2C731AB5B7A92BFE"
+				item: "legendarysurvivaloverhaul:morphine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "53974C42D787C4FA"
+			tasks: [{
+				id: "16E0430969377897"
+				item: "legendarysurvivaloverhaul:plaster"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "79B6BA17371B52A3"
+			tasks: [{
+				id: "0FB95D7C5EB3929E"
+				item: "legendarysurvivaloverhaul:tonic"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "2D005D9C808FFBCA"
+			tasks: [{
+				id: "6C8477A159A19566"
+				item: "solapplepie:food_book"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "0879CA8158DB6437"
+			tasks: [{
+				id: "39741184718EFFF7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								Count: 1b
+								Slot: 0
+								id: "minecraft:rabbit"
+							}]
+							Size: 5
+						}
+					}
+					id: "solapplepie:lunchbag"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "1652324A3BFEE326"
+			tasks: [{
+				id: "0F17B9D3AE8D1579"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+					id: "solapplepie:lunchbox"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "4ABF594D4B35FB8F"
+			tasks: [{
+				id: "039ABCAFD047894E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 14
+						}
+					}
+					id: "solapplepie:golden_lunchbox"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+	]
+	title: "身心调和"
+}
