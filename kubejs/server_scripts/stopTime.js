@@ -1,7 +1,7 @@
-PlayerEvent.LogOut(event=>{
+PlayerEvents.loggedOut(event=>{
     if(event.player.server.level.getPlayerList.size()<1) event.server.runCommandSilent("/gamerule doDayCycle false")
 })
     
-PlayerEvent.LogIn(event=>{
+PlayerEvents.loggedIn(event=>{
     if(event.player.server.level.getPlayerList.size()>=1) event.server.runCommandSilent("/gamerule doDayCycle true")
 })
