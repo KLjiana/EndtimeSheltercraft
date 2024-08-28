@@ -46,3 +46,5 @@ config/refurbished_furniture.server.toml
 config/mm/pack/.cache
 debug
 config/spark/
+servers.dat
+servers.dat_old

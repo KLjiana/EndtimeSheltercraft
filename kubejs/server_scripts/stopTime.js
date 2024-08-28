@@ -1,7 +1,11 @@
-PlayerEvents.loggedOut(event=>{
-    if(event.player.server.level.getPlayerList.size()<1) event.server.runCommandSilent("/gamerule doDayCycle false")
+ServerEvents.tick(event=>{
+    if(event.server.playerCount<1) {
+        event.server.runCommandSilent("/gamerule doDaylightCycle false")
+    }
 })
     
-PlayerEvents.loggedIn(event=>{
-    if(event.player.server.level.getPlayerList.size()>=1) event.server.runCommandSilent("/gamerule doDayCycle true")
+ServerEvents.tick(event=>{
+    if(event.server.playerCount>=1) {
+        event.server.runCommandSilent("/gamerule doDaylightCycle true")
+    }
 })
