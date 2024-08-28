@@ -3,7 +3,7 @@ enablesiege = true
 #Enable Increased Enemy Presence
 incenemies = false
 #Should special mobs spawn riding other mobs?
-isjockies = true
+isjockies = false
 #Charged Creepers Spawn Naturally
 ischargedcreepers = false
 #Allow Bloodlusting Enemies

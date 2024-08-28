@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
                 "item": "create:andesite_casing"
             },
             "W": {
-                "item": "refurbished_furniture:wrench"
+                "item": "minecraft:lightning_rod"
             },
             "S": {
                 "tag": "forge:stone"
