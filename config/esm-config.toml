@@ -45,7 +45,7 @@ zombiepickaxedigonly = false
 #What days should sieges occur? 1 = default (everyday, constantly). 2 = every other day, 7 every week, and so on.
 siegerecurrence = 1
 #Chance of special mob spawning and riding another entity out of 100.
-jockeychance = 5.0
+jockeychance = 0.0
 #Chance Entity Duplicate on Spawn (Out of 100)
 dupechance = 10
 #Chance of entity duplicating when in dungeon (Out of 100)
@@ -103,7 +103,7 @@ siegewhitelist = "spider,cave spider,creeper,skeleton,witch,ghast,giant,husk,hog
 #Any part of a block name, which defines which blocks that siege monsters CANNOT break to try and get to your position.
 siegeBreakableBlockBlacklist = "_ore,_sign,air,water,lava,_bed,rail,_block,obsidian,torch,fire,spawner,ladder,furnace,level,iron_door,pressure_plate,_button,sugar_cane,juke,soul_,portal,cake,repeater,trapdoor,iron_bars,chain,vine,lily_pad,enchanting,brewing,cauldron,end_,dragon,potted_,skull,_head,anvil,chest,dropper,comparator,hopper,detector,Pillar,terracotta,light,prismarine,book,grass,snow,flower,sapling,bush,stem,dragon,carrots,potatoes,detector,powered,concrete,barrier,carpet,banner,beet,void,shulker,structure,compost,piston,dispenser,fern,pickle,chorus,purpur,beacon,conduit,frame,lectern,smith,ancient,armor,wither,barrel,cutter,hive,lode,respawn,sculk,brick,copper"
 #Defines all mobs that can spawn as rideable by spawning monsters. E.g. 'chicken' will cause enemies to spawn riding chickens.
-rideablemobs = "creeper,spider,skeleton,chicken,pig,skeleton_horse,zombie_horse"
+rideablemobs = ""
 #Mobs that can spawn riding other mobs.
-jockeymobs = "creeper,skeleton,zombie,pillager,vindicator,witch,zombified_piglin"
+jockeymobs = ""
 
