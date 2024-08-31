@@ -21,6 +21,8 @@ StartupEvents.registry("item", (event) => {
     .displayName("焦煤")
     event.create("steel_ingot")
     .displayName("钢锭")
+    event.create("backtrack_of_bottle")
+    .displayName("回溯之瓶")
 })
 StartupEvents.registry("fluid", (event) => {
     event.create("resin")

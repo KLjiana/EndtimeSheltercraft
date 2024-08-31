@@ -224,4 +224,16 @@ ServerEvents.recipes(event => {
     ]).transitionalItem(inter).loops(4)
 
     event.recipes.create.mixing([Fluid.of("kubejs:resin")], ["#minecraft:logs"])
+
+    event.recipes.create.mechanical_crafting('mm:assembly_room_controller', [
+        "CCCCC",
+        "CCACC",
+        "CANAC",
+        "CCACC",
+        "CCCCC"
+    ], {
+        C: 'create:copper_casing',
+        A: 'create:industrial_iron_block',
+        N: 'minecraft:netherite_block'
+    })
 }) 

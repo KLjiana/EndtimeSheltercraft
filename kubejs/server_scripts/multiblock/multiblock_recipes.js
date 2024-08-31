@@ -340,4 +340,47 @@ MMEvents.createProcesses(event => {
             })
         }
     }
+    event.create("kubejs:backtrack_of_bottle")
+        .structureId("mm:assembly_room")
+        .ticks(1)
+        .input({
+            "type": "mm:input/consume",
+            "ingredient": {
+                "type": "mm:item",
+                "item": "minecraft:clock",
+                "count": 1
+            }
+        })
+        .input({
+            "type": "mm:input/consume",
+            "ingredient": {
+                "type": "mm:item",
+                "item": "minecraft:netherite_ingot",
+                "count": 6
+            }
+        })
+        .input({
+            "type": "mm:input/consume",
+            "ingredient": {
+                "type": "mm:item",
+                "item": "minecraft:nether_star",
+                "count": 1
+            }
+        })
+        .input({
+            "type": "mm:input/consume",
+            "ingredient": {
+                "type": "mm:item",
+                "item": "minecraft:bottle",
+                "count": 1
+            }
+        })
+        .output({
+            "type": "mm:output/simple",
+            "ingredient": {
+                "type": "mm:item",
+                "item": "kubejs:backtrack_of_bottle",
+                "count": 1
+            }
+        })
 })
