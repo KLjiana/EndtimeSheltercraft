@@ -140,6 +140,44 @@ ServerEvents.recipes(event => {
         ]
     })
 
+
+    event.shaped('kubejs:steel_block', [
+        'SSS',
+        'SSS',
+        'SSS'
+    ], {
+        S: 'kubejs:steel_ingot'
+    })
+
+    event.shapeless('9x kubejs:steel_ingot', [
+        'kubejs:steel_block'
+    ])
+
+    
+    event.recipes.create.mixing([Fluid.of("kubejs:resin")], ["#minecraft:logs"])
+    
+    event.shaped('3x create:mechanical_crafter', [
+        'C  ',
+        'S  ',
+        'T  '
+    ], {
+        C: 'create:cogwheel',
+        S: 'create:copper_casing',
+        T: 'minecraft:crafting_table'
+    })
+    event.recipes.create.mechanical_crafting('mm:assembly_room_controller', [
+        "CCCCC",
+        "CCACC",
+        "CANAC",
+        "CCACC",
+        "CCCCC"
+    ], {
+        C: 'create:copper_casing',
+        A: 'create:industrial_iron_block',
+        N: 'minecraft:netherite_block'
+    })
+
+    
     event.shaped('mm:mini_item_input', [
         ' L ',
         'LHL',
@@ -158,18 +196,7 @@ ServerEvents.recipes(event => {
         D: 'minecraft:dropper'
     })
 
-    event.shaped('kubejs:steel_block', [
-        'SSS',
-        'SSS',
-        'SSS'
-    ], {
-        S: 'kubejs:steel_ingot'
-    })
-
-    event.shapeless('9x kubejs:steel_ingot', [
-        'kubejs:steel_block'
-    ])
-
+    
     event.recipes.create.mechanical_crafting('mm:small_item_input', [
         " LL ",
         "LMML",
@@ -202,16 +229,7 @@ ServerEvents.recipes(event => {
         S: 'create:small_scoria_bricks'
     })
 
-    event.shaped('3x create:mechanical_crafter', [
-        'C  ',
-        'S  ',
-        'T  '
-    ], {
-        C: 'create:cogwheel',
-        S: 'create:copper_casing',
-        T: 'minecraft:crafting_table'
-    })
-
+    
     const inter = "mm:cokery_controller"
     event.recipes.create.sequenced_assembly([
         Item.of("mm:blast_furnace_controller").withChance(9),
@@ -222,18 +240,4 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying(inter, [inter, "minecraft:magma_cream"]),
         event.recipes.createDeploying(inter, [inter, "minecraft:nether_brick"])
     ]).transitionalItem(inter).loops(4)
-
-    event.recipes.create.mixing([Fluid.of("kubejs:resin")], ["#minecraft:logs"])
-
-    event.recipes.create.mechanical_crafting('mm:assembly_room_controller', [
-        "CCCCC",
-        "CCACC",
-        "CANAC",
-        "CCACC",
-        "CCCCC"
-    ], {
-        C: 'create:copper_casing',
-        A: 'create:industrial_iron_block',
-        N: 'minecraft:netherite_block'
-    })
 }) 
