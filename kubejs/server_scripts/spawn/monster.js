@@ -67,6 +67,9 @@ EntityEvents.spawned(event => {
                 if (entity.type.indexOf(monster) != -1) {
                     if (!data.getBoolean('stage_4')) {
                         event.server.tell(Component.literal("最终变种，觉醒了！").lightPurple().color(Color.RED))
+                        event.server.players.forEach(player=>{
+                            player.potionEffects.add("resistance",-1,3)
+                        })
                         data.putBoolean('stage_4', true)
                     }
                     event.exit();
@@ -80,6 +83,9 @@ EntityEvents.spawned(event => {
                 if (entity.type.indexOf(monster) != -1) {
                     if (!data.getBoolean('stage_3')) {
                         event.server.tell(Component.literal("这将会是恐怖的一天，怪物变得更多种了").lightPurple().color(Color.RED))
+                        event.server.players.forEach(player=>{
+                            player.potionEffects.add("resistance",-1,2)
+                        })
                         data.putBoolean('stage_3', true)
                     }
                     event.exit();
@@ -93,6 +99,9 @@ EntityEvents.spawned(event => {
                 if (entity.type.indexOf(monster) != -1) {
                     if (!data.getBoolean('stage_2')) {
                         event.server.tell(Component.literal("越来越多了，还有变种！").lightPurple().color(Color.RED))
+                        event.server.players.forEach(player=>{
+                            player.potionEffects.add("resistance",-1,1)
+                        })
                         data.putBoolean('stage_2', true)
                     }
                     event.exit();
@@ -106,6 +115,9 @@ EntityEvents.spawned(event => {
                 if (entity.type.indexOf(monster) != -1) {
                     if (!data.getBoolean('stage_1')) {
                         event.server.tell(Component.literal("僵尸开始出现，小心他们").lightPurple().color(Color.RED))
+                        event.server.players.forEach(player=>{
+                            player.potionEffects.add("resistance",-1,0)
+                        })
                         data.putBoolean('stage_1', true)
                     }
                     event.exit();

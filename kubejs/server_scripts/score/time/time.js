@@ -9,3 +9,15 @@ ItemEvents.rightClicked('kubejs:backtrack_of_bottle', event => {
         event.cancel(false);
     }
 })
+
+ServerEvents.tick(event=>{
+    if(event.server.playerCount<1) {
+        event.server.runCommandSilent("/gamerule doDaylightCycle false")
+    }
+})
+    
+ServerEvents.tick(event=>{
+    if(event.server.playerCount>=1) {
+        event.server.runCommandSilent("/gamerule doDaylightCycle true")
+    }
+})
