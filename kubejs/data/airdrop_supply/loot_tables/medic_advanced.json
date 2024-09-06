@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_regeneration\"}"
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_healing\"}"
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_healing\"}"
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:medikit",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:morphine",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "legendarysurvivaloverhaul:bandage",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}

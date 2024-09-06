@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "immersive_aircraft:rotary_cannon",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "immersive_aircraft:heavy_crossbow",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "immersive_aircraft:nether_engine",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:attachment",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AttachmentId: 'tacz:scope_acog_ta31'}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:attachment",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AttachmentId: 'tacz:muzzle_silence_phantom_s1'}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tacz:attachment",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{AttachmentId: 'tacz:stock_tactical_ar'}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
