@@ -1,6 +1,13 @@
 [
     {
         "dimension": "minecraft:overworld",
+        "mob": "eeeabsmobs:corpse_warlock",
+        "mincount": 2,
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
         "mob": "aqua_creepers:aqua_creeper",
         "mincount": 11,
         "when": "onjoin",
