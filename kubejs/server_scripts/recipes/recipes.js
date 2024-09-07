@@ -4,10 +4,6 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'create:mechanical_crafter' })
     event.remove({ output: 'create:industrial_iron_block' })
     event.remove({ output: 'silence_s_defense_tower:core_upgrade_table' })
-    event.remove({ output: 'silence_s_defense_tower:maintenance_station0' })
-    event.remove({ id: 'silence_s_defense_tower:hx_1' })
-    event.remove({ id: 'silence_s_defense_tower:hxdu_1' })
-    event.remove({ id: 'silence_s_defense_tower:hxdie_1' })
 
 
     event.stonecutting("create:industrial_iron_block","kubejs:steel_ingot")
@@ -83,6 +79,18 @@ ServerEvents.recipes(event => {
     //     }
     // })
 
+    event.recipes.create.mechanical_crafting(Item.of('tacz:ammo_box', '{Level:0}').weakNBT(), [
+        "MMMMM",
+        "GPPPG",
+        "GP PG",
+        "MPPPM",
+        "MMMMM"
+    ], {
+        M: 'kubejs:military_casing',
+        G: 'minecraft:iron_block',
+        P: '#minecraft:planks'
+    })
+
     event.recipes.create.mechanical_crafting(Item.of('tacz:ammo_box', "{Level:1}").weakNBT(), [
         "MMMMM",
         "GPAPG",
@@ -94,6 +102,18 @@ ServerEvents.recipes(event => {
         G: 'minecraft:gold_block',
         P: '#minecraft:planks',
         A: Item.of('tacz:ammo_box', "{Level:0}").weakNBT()
+    })
+
+    event.recipes.create.mechanical_crafting('2x kubejs:backtrack_of_bottle', [
+        "  N  ",
+        " NSN ",
+        "NSBSN",
+        " NSN ",
+        "  N  "
+    ], {
+        B: "minecraft:glass_bottle",
+        N: "minecraft:netherite_ingot",
+        S: "minecraft:nether_star"
     })
 
     event.recipes.create.mechanical_crafting(Item.of('tacz:ammo_box', '{Level:2}').weakNBT(), [
@@ -140,6 +160,30 @@ ServerEvents.recipes(event => {
         ]
     })
 
+    event.custom({
+        "type": "create:compacting",
+        "heatRequirement": "heated",
+        "ingredients": [
+            {
+                "item": "kubejs:coke_coal"
+            },
+            {
+                "item": "createbigcannons:cast_iron_ingot"
+            },
+            {
+                "amount": 50,
+                "fluid": "minecraft:lava",
+                "nbt": {}
+            }
+        ],
+        "results": [
+            {
+                "item": "kubejs:steel_ingot",
+                "count": 1
+            }
+        ]
+    })
+
 
     event.shaped('kubejs:steel_block', [
         'SSS',
@@ -165,79 +209,120 @@ ServerEvents.recipes(event => {
         S: 'create:copper_casing',
         T: 'minecraft:crafting_table'
     })
-    event.recipes.create.mechanical_crafting('mm:assembly_room_controller', [
-        "CCCCC",
-        "CCACC",
-        "CANAC",
-        "CCACC",
-        "CCCCC"
-    ], {
-        C: 'create:copper_casing',
-        A: 'create:industrial_iron_block',
-        N: 'minecraft:netherite_block'
-    })
+    event.campfireCooking('kubejs:coke_coal', 'minecraft:coal');
+
+    for(let i = 2; i <= 4; i++){
+        event.recipes.create.mechanical_crafting((6-i) + "x silence_s_defense_tower:driving_core_" + i.toString(), [
+            "  N  ",
+            " NSN ",
+            "NSBSN",
+            " NSN ",
+            "  N  "
+        ], {
+            B: "silence_s_defense_tower:driving_core_" + (i - 1).toString(),
+            N: "farmersdelight:bacon_sandwich",
+            S: "minecraft:diamond"
+        })
+
+        event.recipes.create.mechanical_crafting((6-i) + "x silence_s_defense_tower:hell_core_" + i.toString(), [
+            "  N  ",
+            " NSN ",
+            "NSBSN",
+            " NSN ",
+            "  N  "
+        ], {
+            B: "silence_s_defense_tower:hell_core_" + (i - 1).toString(),
+            N: "nethersdelight:strider_slice",
+            S: "minecraft:netherite_ingot"
+        })
+
+        if(i != 4){
+            event.recipes.create.mechanical_crafting((6-i) + "x silence_s_defense_tower:acid_core_" + i.toString(), [
+                "  N  ",
+                " NSN ",
+                "NSBSN",
+                " NSN ",
+                "  N  "
+            ], {
+                B: "silence_s_defense_tower:acid_core_" + (i - 1).toString(),
+                N: "oceansdelight:cut_tentacles",
+                S: "minetraps:toxin_bottle"
+            })
+        }
+    }
+    // event.recipes.create.mechanical_crafting('mm:assembly_room_controller', [
+    //     "CCCCC",
+    //     "CCACC",
+    //     "CANAC",
+    //     "CCACC",
+    //     "CCCCC"
+    // ], {
+    //     C: 'create:copper_casing',
+    //     A: 'create:industrial_iron_block',
+    //     N: 'minecraft:netherite_block'
+    // })
 
     
-    event.shaped('mm:mini_item_input', [
-        ' L ',
-        'LHL',
-        ' L '
-    ], {
-        L: '#minecraft:logs',
-        H: 'minecraft:hopper'
-    })
+    // event.shaped('mm:mini_item_input', [
+    //     ' L ',
+    //     'LHL',
+    //     ' L '
+    // ], {
+    //     L: '#minecraft:logs',
+    //     H: 'minecraft:hopper'
+    // })
 
-    event.shaped('mm:mini_item_output', [
-        ' L ',
-        'LDL',
-        ' L '
-    ], {
-        L: '#minecraft:logs',
-        D: 'minecraft:dropper'
-    })
-
-    
-    event.recipes.create.mechanical_crafting('mm:small_item_input', [
-        " LL ",
-        "LMML",
-        "LMML",
-        " LL "
-    ], {
-        L: '#minecraft:logs',
-        M: 'mm:mini_item_input'
-    })
-
-    event.recipes.create.mechanical_crafting('mm:small_item_output', [
-        " LL ",
-        "LMML",
-        "LMML",
-        " LL "
-    ], {
-        L: '#minecraft:logs',
-        M: 'mm:mini_item_output'
-    })
-
-    event.shaped('mm:cokery_controller', [
-        'APA',
-        'BSB',
-        'ARA'
-    ], {
-        A: 'create:andesite_alloy_block',
-        R: 'minecraft:comparator',
-        P: 'minecraft:piston',
-        B: 'minecraft:iron_bars',
-        S: 'create:small_scoria_bricks'
-    })
+    // event.shaped('mm:mini_item_output', [
+    //     ' L ',
+    //     'LDL',
+    //     ' L '
+    // ], {
+    //     L: '#minecraft:logs',
+    //     D: 'minecraft:dropper'
+    // })
 
     
-    const inter = "mm:cokery_controller"
-    event.recipes.create.sequenced_assembly([
-        Item.of("mm:blast_furnace_controller").withChance(9),
-        Item.of("mm:cokery_controller").withChance(1)
-    ], inter, [
-        event.recipes.createFilling(inter, [inter, Fluid.lava(500)]),
-        event.recipes.createDeploying(inter, [inter, "minecraft:blaze_powder"]),
-        event.recipes.createDeploying(inter, [inter, "minecraft:magma_cream"]),
-        event.recipes.createDeploying(inter, [inter, "minecraft:nether_brick"])
-    ]).transitionalItem(inter).loops(4)
+    // event.recipes.create.mechanical_crafting('mm:small_item_input', [
+    //     " LL ",
+    //     "LMML",
+    //     "LMML",
+    //     " LL "
+    // ], {
+    //     L: '#minecraft:logs',
+    //     M: 'mm:mini_item_input'
+    // })
+
+    // event.recipes.create.mechanical_crafting('mm:small_item_output', [
+    //     " LL ",
+    //     "LMML",
+    //     "LMML",
+    //     " LL "
+    // ], {
+    //     L: '#minecraft:logs',
+    //     M: 'mm:mini_item_output'
+    // })
+
+    // event.shaped('mm:cokery_controller', [
+    //     'APA',
+    //     'BSB',
+    //     'ARA'
+    // ], {
+    //     A: 'create:andesite_alloy_block',
+    //     R: 'minecraft:comparator',
+    //     P: 'minecraft:piston',
+    //     B: 'minecraft:iron_bars',
+    //     S: 'create:small_scoria_bricks'
+    // })
+
+    
+    // const inter = "mm:cokery_controller"
+    // event.recipes.create.sequenced_assembly([
+    //     Item.of("mm:blast_furnace_controller").withChance(9),
+    //     Item.of("mm:cokery_controller").withChance(1)
+    // ], inter, [
+    //     event.recipes.createFilling(inter, [inter, Fluid.lava(500)]),
+    //     event.recipes.createDeploying(inter, [inter, "minecraft:blaze_powder"]),
+    //     event.recipes.createDeploying(inter, [inter, "minecraft:magma_cream"]),
+    //     event.recipes.createDeploying(inter, [inter, "minecraft:nether_brick"])
+    // ]).transitionalItem(inter).loops(4)
 }) 
