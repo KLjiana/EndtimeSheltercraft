@@ -113,7 +113,7 @@ ServerEvents.recipes(event => {
     ], {
         B: "minecraft:glass_bottle",
         N: "minecraft:netherite_ingot",
-        S: "minecraft:nether_star"
+        S: 'minecraft:ender_pearl' 
     })
 
     event.recipes.create.mechanical_crafting(Item.of('tacz:ammo_box', '{Level:2}').weakNBT(), [
