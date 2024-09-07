@@ -63,7 +63,7 @@ EntityEvents.spawned(event => {
     let fight = data.getInt("fight_score")
 
     if (entity.monster && entity.type.indexOf('silence_s_defense_tower') == -1) {
-        if (170 <= loot && 8000 < fight) {
+        if (120 <= loot && 8000 < fight) {
             type_4.forEach(monster => {
                 if (entity.type.indexOf(monster) != -1) {
                     if (!data.getBoolean('stage_4')) {
