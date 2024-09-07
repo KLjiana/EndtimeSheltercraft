@@ -16,7 +16,7 @@
     {
         "dimension": "minecraft:overworld",
         "mob": "eeeabsmobs:corpse_warlock",
-        "mincount": 2,
+        "mincount": 5,
         "when": "onjoin",
         "result": "deny"
     },
