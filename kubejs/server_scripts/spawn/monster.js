@@ -62,7 +62,7 @@ EntityEvents.spawned(event => {
     let fight = data.getInt("fight_score")
 
     if (entity.monster && entity.type.indexOf('silence_s_defense_tower') == -1) {
-        if (230 <= loot && 3000 < fight) {
+        if (170 <= loot && 8000 < fight) {
             type_4.forEach(monster => {
                 if (entity.type.indexOf(monster) != -1) {
                     if (!data.getBoolean('stage_4')) {
@@ -78,7 +78,7 @@ EntityEvents.spawned(event => {
             event.cancel()
         }
 
-        if (130 <= loot && 1000 < fight) {
+        if (100 <= loot && 4000 < fight) {
             type_3.forEach(monster => {
                 if (entity.type.indexOf(monster) != -1) {
                     if (!data.getBoolean('stage_3')) {
@@ -94,7 +94,7 @@ EntityEvents.spawned(event => {
             event.cancel()
         }
 
-        if (50 <= loot && 200 < fight) {
+        if (50 <= loot && 500 < fight) {
             type_2.forEach(monster => {
                 if (entity.type.indexOf(monster) != -1) {
                     if (!data.getBoolean('stage_2')) {
