@@ -1,6 +1,13 @@
 [
     {
         "dimension": "minecraft:overworld",
+        "mob": "minecraft:wither",
+        "mincount": 3,
+        "when": "onjoin",
+        "result": "deny"
+    },
+    {
+        "dimension": "minecraft:overworld",
         "mob": "themutantmobsmod:mutant_sniffer",
         "mincount": 1,
         "when": "onjoin",

@@ -51,6 +51,7 @@ let type_4 = ["themutantmobsmod:mutantstray",
     "mutantmonsters:mutant_skeleton",
     "mutantmonsters:mutant_enderman",
     "themutantmobsmod:gigaillager",
+    "minecraft:wither",
     "minecraft:zombie"]
 
 let type_5 = ["minecraft:zombified_piglin"]
