@@ -198,6 +198,42 @@
 			x: 1.0d
 			y: -0.5d
 		}
+		{
+			id: "1D4C42465AA4D80E"
+			tasks: [{
+				id: "11576F544284127A"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			id: "6EF5C4A7F1679FF8"
+			tasks: [{
+				id: "030CE007590A7B9B"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			id: "4EB4A7B1CCDB9605"
+			tasks: [{
+				id: "352A56704F8826F8"
+				item: "waystones:return_scroll"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
 	]
 	title: "远途出行"
 }
