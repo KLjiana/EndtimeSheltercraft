@@ -1,62 +1,62 @@
 [
     {
-        "dimension": "minecraft:overworld",
+        "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
         "mob": "minecraft:wither",
         "mincount": 3,
         "when": "onjoin",
         "result": "deny"
     },
     {
-        "dimension": "minecraft:overworld",
+        "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
         "mob": "themutantmobsmod:mutant_sniffer",
         "mincount": 1,
         "when": "onjoin",
         "result": "deny"
     },
     {
-        "dimension": "minecraft:overworld",
+        "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
         "mob": "eeeabsmobs:corpse_warlock",
         "mincount": 5,
         "when": "onjoin",
         "result": "deny"
     },
     {
-        "dimension": "minecraft:overworld",
+        "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
         "mob": "aqua_creepers:aqua_creeper",
         "mincount": 11,
         "when": "onjoin",
         "result": "deny"
     },
     {
-        "dimension": "minecraft:overworld",
+        "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
         "mob": "eeeabsmobs:nameless_guardian",
         "mincount": 2,
         "when": "onjoin",
         "result": "deny"
     },
     {
-        "dimension": "minecraft:overworld",
+        "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
         "mob": "themutantmobsmod:mutant_drowned",
         "mincount": 3,
         "when": "onjoin",
         "result": "deny"
     },
     {
-        "dimension": "minecraft:overworld",
+        "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
         "mob": "themutantmobsmod:mutant_zombified_piglin",
         "mincount": 4,
         "when": "onjoin",
         "result": "deny"
     },
     {
-        "dimension": "minecraft:overworld",
+        "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
         "mob": "themutantmobsmod:mutantstray",
         "mincount": 3,
         "when": "onjoin",
         "result": "deny"
     },
     {
-        "dimension": "minecraft:overworld",
+        "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
         "mob": "themutantmobsmod:gigaillager",
         "mincount": 2,
         "when": "onjoin",

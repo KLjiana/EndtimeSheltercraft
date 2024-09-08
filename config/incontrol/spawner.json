@@ -26,10 +26,11 @@
       "minecraft:silverfish",
       "minecraft:skeleton",
       "minecraft:zoglin",
+      "minecraft:zombie",
       "eeeabsmobs:nameless_guardian"
     ],
     "conditions": {
-      "dimension": "minecraft:overworld"
+      "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"]
     }
   },
   
@@ -43,7 +44,7 @@
       "maximum": 12
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
       "inair": true,
       "inliquid": true,
       "minverticaldist": 18,
@@ -65,7 +66,7 @@
       "maximum": 12
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
       "inair": true,
       "inliquid": true,
       "minverticaldist": 18,
@@ -87,7 +88,7 @@
       "maximum": 12
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
       "inair": true,
       "inliquid": true,
       "minverticaldist": 18,
@@ -109,7 +110,7 @@
       "maximum": 12
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
       "mindist": 15,
       "maxdist": 256,
       "norestrictions": true,
@@ -127,7 +128,7 @@
       "maximum": 8
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
       "mindist": 15,
       "maxdist": 256,
       "norestrictions": true,
@@ -145,7 +146,7 @@
       "maximum": 8
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
       "mindist": 12,
       "maxdist": 256,
       "norestrictions": true,
@@ -163,7 +164,7 @@
       "maximum": 8
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
       "mindist": 10,
       "maxdist": 256,
       "norestrictions": true,
@@ -181,7 +182,7 @@
       "maximum": 8
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
       "norestrictions": true,
       "maxhostile": 120
     }
@@ -197,7 +198,7 @@
       "maximum": 5
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
       "maxhostile": 100
     }
   }
