@@ -7,7 +7,6 @@ let type_1 = ["zombie_island:runner",
     "zombie_island:shambler",
     "zombie_island:firefighter_walker",
     "zombie_island:hazmat_walker",
-    "zombie_island:burning_walker",
     "zombie_island:shocking_walker",
     "zombie_island:incendiary_walker",
     "zombie_island:eat_courier"]
