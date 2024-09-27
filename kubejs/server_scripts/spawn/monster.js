@@ -26,7 +26,6 @@ let type_2 = ["rotted:marine",
     "minecraft:phantom"]
 
 let type_3 = ["minecraft:cave_spider",
-    "eeeabsmobs:corpse_warlock",
     "tacz_npcs:terrorist_no_armor",
     "tacz_npcs:terrorist_scav_pistol_armored",
     "tacz_npcs:terrorist_scav",

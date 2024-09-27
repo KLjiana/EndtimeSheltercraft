@@ -16,6 +16,16 @@ ServerEvents.recipes(event=>{
         H: 'minecraft:hopper'
     })
 
+    event.shaped('minecraft:blaze_rod', [
+        ' GM',
+        'GSG',
+        'MG '
+    ], {
+        S: 'minecraft:stick',
+        M: 'minecraft:magma_block',
+        G: 'minecraft:gold_block'
+    })
+
     event.shapeless('2x minecraft:string', [
        'minecraft:white_wool','minecraft:shears'
     ]).damageIngredient("minecraft:shears", 5)
