@@ -1,6 +1,12 @@
 [
     {
         "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
+        "mob": "minecraft:parrot",
+        "when": "onjoin",
+        "result": "allow"
+    },
+    {
+        "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
         "mob": "minecraft:wither",
         "mincount": 3,
         "when": "onjoin",
@@ -23,7 +29,7 @@
     {
         "dimension": ["minecraft:overworld","minecraft:the_end","minecraft:the_nether"],
         "mob": "aqua_creepers:aqua_creeper",
-        "mincount": 11,
+        "mincount": 31,
         "when": "onjoin",
         "result": "deny"
     },
@@ -225,7 +231,7 @@
         "armorhelmet": "minecraft:leather_helmet",
         "armorchest": "minecraft:leather_chestplate",
         "armorlegs": "minecraft:leather_leggings",
-        "armorboots": "minecraft:leather_boots",
+        "armorboots": "minecraft:leather_boots{Enchantments: [{lvl: 2s, id: \"minecraft:frost_walker\"}]}",
         "when": "onjoin",
         "result": "default"
     },
